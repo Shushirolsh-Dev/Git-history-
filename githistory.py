@@ -139,7 +139,7 @@ def fetch_authored_commits(
     }
     if since:
         # Small overlap protects against clock skew and delayed indexing.
-        overlap = parse_date(since) - dt.timedelta(minutes=5)
+        overlap = parse_date(since) - dt.timedelta(hours=24)
         params["since"] = overlap.isoformat().replace("+00:00", "Z")
 
     url = f"{API}/repos/{repo['full_name']}/commits"
