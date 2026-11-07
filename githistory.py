@@ -117,6 +117,11 @@ def save_state(state: dict[str, Any]) -> None:
 
 def account_and_repositories(api: GitHubAPI) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     user = api.get(f"{API}/user").json()
+    if user.get("login", "").casefold() != api.username.casefold():
+        raise SystemExit(
+            f"Token belongs to @{user.get('login')}, but GITHUB_USERNAME is @{api.username}. "
+            "Use a read token for the account being analysed."
+        )
     repos = list(api.pages(
         f"{API}/user/repos",
         {"per_page": 100, "sort": "full_name", "affiliation": "owner,collaborator,organization_member"},
