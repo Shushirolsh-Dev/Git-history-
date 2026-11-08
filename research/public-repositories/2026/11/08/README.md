@@ -1,0 +1,1006 @@
+# Public GitHub repository research — 2026-11-08
+
+**New repositories documented today:** 1000
+
+These are public repositories owned by other GitHub users. Each entry is based on upstream metadata and README text; it is not an endorsement or code audit.
+
+- [godwit-email/homebrew-tap](godwit-email--homebrew-tap/README.md) — Homebrew tap for Godwit
+- [rdavid/transcode](rdavid--transcode/README.md) — Transcodes, inspects, and converts videos
+- [sylph01/melos](sylph01--melos/README.md) — a Messaging Layer Security Protocol (RFC 9420) implementation in Ruby
+- [theopenbee/homebrew-tap](theopenbee--homebrew-tap/README.md) — No description supplied.
+- [viamin/paid](viamin--paid/README.md) — Pipeline for AI Development
+- [solectrus/ingest](solectrus--ingest/README.md) — Lightweight InfluxDB ingestion proxy with buffering and house power calculation
+- [mainline-dev/mainline-core](mainline-dev--mainline-core/README.md) — Project tool with the practices of continuous delivery built in. AGPL.
+- [ramireza7089/team-fortress-2](ramireza7089--team-fortress-2/README.md) — Top Team Fortress 2 Gameplay Enhancement Suite 2026: ESP & No Recoil
+- [danbooru/danbooru](danbooru--danbooru/README.md) — A taggable image board written in Rails.
+- [getslatis/homebrew-tap](getslatis--homebrew-tap/README.md) — Homebrew formulae for the Slatis CLI
+- [next-l/enju_leaf](next-l--enju_leaf/README.md) — Next-L Enju Leaf 統合図書館管理システム / integrated library system https://enju.next-l.jp/
+- [Kronkverse/kronk](Kronkverse--kronk/README.md) — The background code for mastodon.kronk.info
+- [bryan-sullivan942/rust](bryan-sullivan942--rust/README.md) — Top Rust Gameplay Enhancement Suite 2026: ESP & No Recoil
+- [alabsystems/homebrew-tap](alabsystems--homebrew-tap/README.md) — Homebrew tap for ALab (aterm, alab)
+- [avin-lang/homebrew-tap](avin-lang--homebrew-tap/README.md) — Homebrew tap for Avin: brew install avin-lang/tap/avin
+- [kettle-dev/kettle-changelog](kettle-dev--kettle-changelog/README.md) — CHANGELOG.md management for RubyGem projects
+- [PedroPedrassolli/gx-project](PedroPedrassolli--gx-project/README.md) — Duelos de cartas online em tempo real (Rails 8 API + React). Projeto de fã, sem fins lucrativos.
+- [sporkmonger/addressable](sporkmonger--addressable/README.md) — Addressable is an alternative implementation to the URI implementation that is part of Ruby's standard library. It is flexible, offers heuristic parsing, and additionally provides extensive support for IRIs and URI templates.
+- [ZigaoWang/homebrew-tap](ZigaoWang--homebrew-tap/README.md) — Homebrew tap for Zigzag, a native Mac browser
+- [lzwme/homebrew-cn](lzwme--homebrew-cn/README.md) — 适合中国大陆用户使用的 Homebrew 应用代理镜像库
+- [0x1oceanlabs/homebrew-banda](0x1oceanlabs--homebrew-banda/README.md) — Homebrew tap for Banda on macOS
+- [Kerrick/dot_popper](Kerrick--dot_popper/README.md) — No description supplied.
+- [alexfalkowski/nonnative](alexfalkowski--nonnative/README.md) — Allows you to keep using the power of Ruby to test other systems.
+- [delinoio/homebrew-tap](delinoio--homebrew-tap/README.md) — No description supplied.
+- [heardlabs/homebrew-heard](heardlabs--homebrew-heard/README.md) — Homebrew tap for Heard — brew install --cask heardlabs/heard/heard
+- [cmbaldwin/Shichimi](cmbaldwin--Shichimi/README.md) — 7 mainute calisthenics workout app
+- [natepuppy/havn_api](natepuppy--havn_api/README.md) — No description supplied.
+- [rubybench/rubybench-data](rubybench--rubybench-data/README.md) — Results from the rubybench benchmark runner
+- [xuxiaowei-com-cn/discourse-keyword-guard](xuxiaowei-com-cn--discourse-keyword-guard/README.md) — Discourse 关键词守卫插件。插件直接复用 Discourse 内置的「关注词（Watched Words）」配置，把 block 和 silence 两个列表扩展应用到用户名、昵称、个人简介、聊天群名称和聊天内容。
+- [pubid/pubid](pubid--pubid/README.md) — PubID gem
+- [tk0miya/rubocop-herb](tk0miya--rubocop-herb/README.md) — No description supplied.
+- [tswarren/DepartureDesk](tswarren--DepartureDesk/README.md) — No description supplied.
+- [Armor1AI/homebrew-boundary](Armor1AI--homebrew-boundary/README.md) — Homebrew tap for Armor1 Boundary
+- [setdef/Lota](setdef--Lota/README.md) — Lota lets you make 2D games in Ruby. It builds a modified version of the C++ engine that LÖVE games run on, so a game behaves the same in both. A LÖVE tutorial still reads true once its calls are translated by a handful of rules to turn Lua into idiomatic Ruby.
+- [listo-delivery/listo-ruby](listo-delivery--listo-ruby/README.md) — Official Ruby library for the Listo Delivery API (generated; changes are made upstream).
+- [vimma-browser/homebrew-tap](vimma-browser--homebrew-tap/README.md) — Homebrew tap for Vimma, the keyboard-first browser
+- [WITCodingClub/calendar-backend](WITCodingClub--calendar-backend/README.md) — Backend for calendar project. Written in Ruby on Rails.
+- [atelpis/homebrew-tap](atelpis--homebrew-tap/README.md) — Homebrew tap for Claudama
+- [crmne/ruby_llm](crmne--ruby_llm/README.md) — The Ruby AI framework.
+- [Homebrew/homebrew-core](Homebrew--homebrew-core/README.md) — 🍻 Default and OSS formulae (built-from-source packages) for the package manager for everywhere
+- [AhmedPeaRL/rx-hcm-grid-node-01](AhmedPeaRL--rx-hcm-grid-node-01/README.md) — No description supplied.
+- [flickbar/homebrew-tap](flickbar--homebrew-tap/README.md) — Homebrew tap for Flickbar
+- [chenrui333/homebrew-tap](chenrui333--homebrew-tap/README.md) — Expand homebrew-core/homebrew-cask
+- [Sidewalk-Developer-Group/homebrew-tap](Sidewalk-Developer-Group--homebrew-tap/README.md) — Homebrew tap for the Deployer CLI
+- [specter78/adblock](specter78--adblock/README.md) — No description supplied.
+- [Judeeeee/Judeeeee](Judeeeee--Judeeeee/README.md) — profile pageをいい感じにしたい
+- [mdkg-dev/homebrew-tap](mdkg-dev--homebrew-tap/README.md) — Homebrew tap for mdkg.
+- [fabricetriboix/devops-fu](fabricetriboix--devops-fu/README.md) — No description supplied.
+- [kelsin/homebrew-tap](kelsin--homebrew-tap/README.md) — Homebrew tap for kelsin's tools
+- [Rudra370/homebrew-tap](Rudra370--homebrew-tap/README.md) — Homebrew tap for Multee — brew install --cask Rudra370/tap/multee
+- [charrmint/nw-jrvh](charrmint--nw-jrvh/README.md) — No description supplied.
+- [yupinz123/ruby-practice](yupinz123--ruby-practice/README.md) — No description supplied.
+- [wpomme/memo-cli](wpomme--memo-cli/README.md) — 自分のメモ帳をターミナルで見るためのCLI
+- [HougeLangley/homebrew-loong64](HougeLangley--homebrew-loong64/README.md) — Homebrew tap and prebuilt bottles for LoongArch (loongarch64) — 龙架构 Homebrew 软件源
+- [jeffmcfadden/weather_data](jeffmcfadden--weather_data/README.md) — Archive of weather data from my personal weather stations
+- [100-hours-a-week/KTB4-15th-GITOPS](100-hours-a-week--KTB4-15th-GITOPS/README.md) — No description supplied.
+- [emilesu/new_holdle_stock_site](emilesu--new_holdle_stock_site/README.md) — Rails 股票数据分析系统
+- [whatsnextinfashion/fashion-brief](whatsnextinfashion--fashion-brief/README.md) — Daily AI-curated fashion business brief
+- [ydah/flexr](ydah--flexr/README.md) — Ruby-native lexer generator for parser authors. Write ordinary Ruby specs, run them at runtime, or generate deterministic Ruby for deployment.
+- [brady1408/homebrew-tap](brady1408--homebrew-tap/README.md) — Homebrew formulae for brady1408's tools
+- [cadente-hub/homebrew-apps](cadente-hub--homebrew-apps/README.md) — No description supplied.
+- [lateralblast/modest](lateralblast--modest/README.md) — Multi OS Deployment Engine Server Tool
+- [TheKevJames/homebrew-youtube-viewer](TheKevJames--homebrew-youtube-viewer/README.md) — youtube-viewer Formula for Homebrew
+- [Cyber-Buddy/probe-x](Cyber-Buddy--probe-x/README.md) — codespaces research
+- [Kracht-AI/homebrew-tap](Kracht-AI--homebrew-tap/README.md) — Homebrew tap for the Kracht CLI. Generated cask metadata only; no source.
+- [sorah/config](sorah--config/README.md) — config
+- [coodyapp/homebrew-tap](coodyapp--homebrew-tap/README.md) — Homebrew tap for coody apps.
+- [gozwei/homebrew-popso](gozwei--homebrew-popso/README.md) — Homebrew tap for the popso solver
+- [goncalvesjoao/shakestir](goncalvesjoao--shakestir/README.md) — Monorepo containing multiple implementations of the ShakeStir project
+- [ai-all-ai/homebrew-tap](ai-all-ai--homebrew-tap/README.md) — Official Homebrew tap for AI-ALL CLI
+- [martinsuchenak/homebrew-tap](martinsuchenak--homebrew-tap/README.md) — No description supplied.
+- [ArcavenAE/homebrew-tap](ArcavenAE--homebrew-tap/README.md) — No description supplied.
+- [SamSaffron/homebrew-tap](SamSaffron--homebrew-tap/README.md) — Official Homebrew tap for term-llm
+- [scm-js/homebrew-tap](scm-js--homebrew-tap/README.md) — Homebrew tap for scmjs, the scmJS command line
+- [fuyutarow/homebrew-tap](fuyutarow--homebrew-tap/README.md) — No description supplied.
+- [opengeos/homebrew-geolibre](opengeos--homebrew-geolibre/README.md) — Homebrew tap for GeoLibre desktop app
+- [mantrakp04/homebrew-tap](mantrakp04--homebrew-tap/README.md) — Homebrew tap for Ardia
+- [uOttawa-Makerspace/MakerSpaceRepo](uOttawa-Makerspace--MakerSpaceRepo/README.md) — An open-source repository of maker projects and university of Ottawa Courses
+- [RikaiDev/homebrew-tap](RikaiDev--homebrew-tap/README.md) — Homebrew tap for RikaiDev tools
+- [nirantarasi/homebrew-tap](nirantarasi--homebrew-tap/README.md) — Homebrew formula for nirantarasi org
+- [tcbirdie18/hybrid-enterprise-iac-lab](tcbirdie18--hybrid-enterprise-iac-lab/README.md) — No description supplied.
+- [boringcache/benchmarks](boringcache--benchmarks/README.md) — BoringCache benchmarks on real repositories, with exact GitHub Actions runs and reproducible workloads.
+- [LenderCom/homebrew-tap](LenderCom--homebrew-tap/README.md) — Homebrew tap for LenderCom developer tools (saw-agent)
+- [agentica-lang/packages](agentica-lang--packages/README.md) — Agentica packages, one folder each (install with subdir and prefixed tags)
+- [katesongsy/homebrew-tap](katesongsy--homebrew-tap/README.md) — Homebrew tap for Dort
+- [elanthia-online/eohunter](elanthia-online--eohunter/README.md) — No description supplied.
+- [chenmobuys/homebrew-tap](chenmobuys--homebrew-tap/README.md) — Homebrew casks for chenmobuys apps. Automatically verified and updated from published releases.
+- [MoeShinX/homebrew-tap](MoeShinX--homebrew-tap/README.md) — Homebrew tap for ZeeTerm (macOS, Apple Silicon)
+- [benjaminchocolate/homebrew-tap](benjaminchocolate--homebrew-tap/README.md) — No description supplied.
+- [LeafdTK/homebrew-tap](LeafdTK--homebrew-tap/README.md) — No description supplied.
+- [fumtas1k/atcoder-reviews](fumtas1k--atcoder-reviews/README.md) — AtCoder のコンテスト振り返りと Ruby の解答
+- [onetimesecret/onetimesecret](onetimesecret--onetimesecret/README.md) — Keep passwords and other sensitive information out of your chat logs and inboxes.
+- [dustywusty/homebrew-tap](dustywusty--homebrew-tap/README.md) — No description supplied.
+- [codeliter/homebrew-tap](codeliter--homebrew-tap/README.md) — Homebrew tap for codeliter's tools
+- [wenlingang/kamal-panel](wenlingang--kamal-panel/README.md) — A read-only(-ish) control panel for Kamal deployments: one apps × hosts table, over SSH
+- [lucsantosz/todo-app](lucsantosz--todo-app/README.md) — To-Do List com Ruby on Rails (API) e Vue.js
+- [d0ugal/homebrew-tap](d0ugal--homebrew-tap/README.md) — Homebrew formulae for d0ugal's tools
+- [t8y2/homebrew-tap](t8y2--homebrew-tap/README.md) — Homebrew tap for t8y2 projects
+- [cainiao1992/homebrew-tap](cainiao1992--homebrew-tap/README.md) — No description supplied.
+- [take-cheeze/rpg-maker-clone](take-cheeze--rpg-maker-clone/README.md) — No description supplied.
+- [Quality-Project-Creator/cvt-cli](Quality-Project-Creator--cvt-cli/README.md) — A single-command file format converter in Ruby: 56 formats, YAML output, predictable exit codes
+- [alphagov/govuk-synthetic-test-app-canary](alphagov--govuk-synthetic-test-app-canary/README.md) — No description supplied.
+- [carlonzo/homebrew-klardrop](carlonzo--homebrew-klardrop/README.md) — Homebrew tap for Klardrop
+- [hunglinhpt/homebrew-tap](hunglinhpt--homebrew-tap/README.md) — for mac
+- [omarpr/homebrew-tap](omarpr--homebrew-tap/README.md) — No description supplied.
+- [Muvon/homebrew-tap](Muvon--homebrew-tap/README.md) — Muvon homebrew formulas
+- [kiir33/Finance-web](kiir33--Finance-web/README.md) — No description supplied.
+- [kettle-dev/kettle-dev](kettle-dev--kettle-dev/README.md) — 🍲 Setup a complete rake & dev harness for Ruby development; tasks for coverage, GHA console, linting, debugging, etc.
+- [anaclumos/homebrew-tap](anaclumos--homebrew-tap/README.md) — Homebrew casks by anaclumos
+- [ssherman/the-greatest](ssherman--the-greatest/README.md) — The Greatest Movies, Books, Music, Video Games
+- [zlichtman/homebrew-tap](zlichtman--homebrew-tap/README.md) — Homebrew casks for Zach Lichtman apps
+- [alexfalkowski/bin](alexfalkowski--bin/README.md) — A place for common executables.
+- [jingzong41/jingzong41-github.github.io](jingzong41--jingzong41-github.github.io/README.md) — My Blog
+- [martynZheng/ios-app-factory](martynZheng--ios-app-factory/README.md) — No description supplied.
+- [wudidekongjv/infinite-canvas-sketchup-director-plugin](wudidekongjv--infinite-canvas-sketchup-director-plugin/README.md) — No description supplied.
+- [optgeo/oam-starc](optgeo--oam-starc/README.md) — OAM (OpenAerialMap) の STARC (SpatioTemporal Asset Resource Catalog)
+- [sarvex/simple_cms](sarvex--simple_cms/README.md) — No description supplied.
+- [mostlygeek/homebrew-llama-swap](mostlygeek--homebrew-llama-swap/README.md) — homebrew tap for llama-swap
+- [TraderSamwise/homebrew-aimux](TraderSamwise--homebrew-aimux/README.md) — Homebrew tap for aimux — native CLI agent multiplexer for AI coding tools
+- [kg8m/tanshuku](kg8m--tanshuku/README.md) — A Rails engine for shortening URLs
+- [Homebrew/homebrew-cask](Homebrew--homebrew-cask/README.md) — 🍻 Default casks (upstream binary packages) for the package manager for everywhere
+- [mle-wtf/homebrew-lair](mle-wtf--homebrew-lair/README.md) — Homebrew tap for the LAIR Minion. brew tap mle-wtf/lair && brew install lair-minion
+- [hjy0221/TensorRuby](hjy0221--TensorRuby/README.md) — No description supplied.
+- [McRitchie-Studio/turf-monster](McRitchie-Studio--turf-monster/README.md) — No description supplied.
+- [jhheider/homebrew-tap](jhheider--homebrew-tap/README.md) — No description supplied.
+- [jcraigk/phishin](jcraigk--phishin/README.md) — An archive of live Phish audience recordings
+- [LocalKinAI/homebrew-tap](LocalKinAI--homebrew-tap/README.md) — Homebrew formulae for LocalKin tools
+- [kigster/openlanes](kigster--openlanes/README.md) — Concurrent Agentic Software Factory based on agentilda — https://github/kigster/agentilda. Instead of TUI it display css based ui. It's a self contained software factory that only requires Redis to work. Other machines can join and pick up work Thats not yet in progress. See https://openlanes.ai
+- [Ando-Corporation/homebrew-tap](Ando-Corporation--homebrew-tap/README.md) — Homebrew tap for Ando desktop releases
+- [felixefelip/rbs_infer](felixefelip--rbs_infer/README.md) — Infer RBS type signatures from Ruby source code via static analysis
+- [litebitus/homebrew-tap](litebitus--homebrew-tap/README.md) — Homebrew tap for CLI tools: brew install litebitus/tap/<tool>
+- [activeagents/activeagents](activeagents--activeagents/README.md) — Active Agent - The AI Framework for Ruby on Rails
+- [ruby-oauth/oauth-tty](ruby-oauth--oauth-tty/README.md) — 🖥️ OAuth 1.0a TTY Command Line Interface
+- [heapworks-in/homebrew-tap](heapworks-in--homebrew-tap/README.md) — Homebrew tap for Margin
+- [kamaoda/career-portfolio](kamaoda--career-portfolio/README.md) — No description supplied.
+- [funktor/funktor.github.io](funktor--funktor.github.io/README.md) — No description supplied.
+- [sky-jiangcheng/homebrew-repo](sky-jiangcheng--homebrew-repo/README.md) — Homebrew tap for Cinder — the desktop app (Cask) and the MCP server (Formula).
+- [Martin-Business-Consultants/runwellv2](Martin-Business-Consultants--runwellv2/README.md) — Runwell v2: agency project management core with plugins and an AI agent surface
+- [fiorix/homebrew-tap](fiorix--homebrew-tap/README.md) — Homebrew packages by fiorix
+- [hanzpo/homebrew-tap](hanzpo--homebrew-tap/README.md) — No description supplied.
+- [mousu-a/illustration_portal](mousu-a--illustration_portal/README.md) — 絵師ぽ！
+- [romankurnovskii/homebrew-awesome-brew](romankurnovskii--homebrew-awesome-brew/README.md) — A catalog of Homebrew casks and formulas extending to open-source projects by developers. Simplifies the process of finding and installing apps via Homebrew.
+- [akester/puppet-cis](akester--puppet-cis/README.md) — No description supplied.
+- [McRitchie-Studio/mcritchie-studio](McRitchie-Studio--mcritchie-studio/README.md) — No description supplied.
+- [514-labs/homebrew-tap](514-labs--homebrew-tap/README.md) — No description supplied.
+- [WinApps-share/homebrew-tap](WinApps-share--homebrew-tap/README.md) — No description supplied.
+- [padrino/padrino-framework](padrino--padrino-framework/README.md) — Padrino is a full-stack ruby framework built upon Sinatra. 
+- [gridctl/homebrew-tap](gridctl--homebrew-tap/README.md) — 🚰 Homebrew tap for gridctl: MCP orchestration for AI agents.
+- [state-machines/meta](state-machines--meta/README.md) — Test all integrations at once.
+- [MerceRares/pret-bot](MerceRares--pret-bot/README.md) — No description supplied.
+- [leemac/sizzle](leemac--sizzle/README.md) — A beautiful, self-hosted recipe app
+- [Kehvarl/timewasters](Kehvarl--timewasters/README.md) — No description supplied.
+- [KoukeNeko/homebrew-tap](KoukeNeko--homebrew-tap/README.md) — Homebrew tap for KoukeNeko's applications
+- [DenisovAV/homebrew-tap](DenisovAV--homebrew-tap/README.md) — Homebrew formulae for litetune
+- [McRitchie-Studio/studio-engine](McRitchie-Studio--studio-engine/README.md) — Shared Rails engine for McRitchie Studio apps
+- [realAllenSong/homebrew-tap](realAllenSong--homebrew-tap/README.md) — Homebrew tap for ThunderTalk
+- [toutiao/toutiao.github.io](toutiao--toutiao.github.io/README.md) — Comments on Hacker News Hot Discussions
+- [maytech-labs/homebrew-tap](maytech-labs--homebrew-tap/README.md) — Homebrew formulae for maytech-labs tools
+- [Nimbus-Land/homebrew-tap](Nimbus-Land--homebrew-tap/README.md) — No description supplied.
+- [r-nikhil/r-nikhil.github.io](r-nikhil--r-nikhil.github.io/README.md) — Blog
+- [setdef/Fledge](setdef--Fledge/README.md) — Fledge packages software written in Ruby so that people can run it without installing Ruby. Your users download one file, unpack it wherever they like, and run it. If your app has windows, Fledge also builds an installer for each system.
+- [agentic-wiki/homebrew-tap](agentic-wiki--homebrew-tap/README.md) — No description supplied.
+- [jimeh/connectrpc-ruby](jimeh--connectrpc-ruby/README.md) — Ruby Connect RPC clients and servers with Rack and Rails integration and pluggable codecs and HTTP transports.
+- [makevoid/claude-make-an-anime](makevoid--claude-make-an-anime/README.md) — A Claude Code plugin that turns a story into a finished anime
+- [creativesorcery/goodsorcery-ruby](creativesorcery--goodsorcery-ruby/README.md) — No description supplied.
+- [LeipeLeon/zonneplan](LeipeLeon--zonneplan/README.md) — Create an image for use in a TRMNL display
+- [stevegeek/encoded_id](stevegeek--encoded_id/README.md) — Turn numeric or hex IDs into reversible and human friendly obfuscated strings. Also supports Rails ActiveRecord models
+- [Two-Bear-Capital/homebrew-tap](Two-Bear-Capital--homebrew-tap/README.md) — Homebrew tap for the tbc CLI (internal; requires a twobearcapital.com account).
+- [otterdigitalnet/homebrew-tap](otterdigitalnet--homebrew-tap/README.md) — Homebrew tap for Otter Beam
+- [mfeng9/homebrew-tap](mfeng9--homebrew-tap/README.md) — No description supplied.
+- [thekuwayama/biryani](thekuwayama--biryani/README.md) — An HTTP/2 server implemented using Ruby Ractor
+- [saiumesh535/termi-bin](saiumesh535--termi-bin/README.md) — Public Termi macOS binaries and Sparkle appcast
+- [betagouv/gitscan](betagouv--gitscan/README.md) — Automated GitHub public repository scanner. Collects metadata, documentation, dependencies, and commit history from public repositories.
+- [coreyhaines31/homebrew-tap](coreyhaines31--homebrew-tap/README.md) — Homebrew casks for Corey Haines' apps
+- [lutaml/expressir](lutaml--expressir/README.md) — Ruby parser for the ISO EXPRESS language
+- [circlesac/homebrew-tap](circlesac--homebrew-tap/README.md) — Homebrew tap
+- [zeroc-ice/homebrew-nightly](zeroc-ice--homebrew-nightly/README.md) — Homebrew Ice Nightly Builds
+- [My-Slops/poems](My-Slops--poems/README.md) — No description supplied.
+- [wjchoi87/homebrew-beamlink](wjchoi87--homebrew-beamlink/README.md) — Homebrew tap for BeamLink — screen sharing & remote control from Android
+- [cu-kha/homebrew-tap](cu-kha--homebrew-tap/README.md) — Homebrew tap for my projects
+- [gebilaoman/homebrew-tap](gebilaoman--homebrew-tap/README.md) — Homebrew tap for cstop
+- [zstearman3/prophet-ratings](zstearman3--prophet-ratings/README.md) — No description supplied.
+- [ietf-tools/relaton-data-rfcs](ietf-tools--relaton-data-rfcs/README.md) — No description supplied.
+- [lutaml/lutaml-model](lutaml--lutaml-model/README.md) — LutaML Model is an information modeler. Supports declarative definitions of serializations and transforms for models.
+- [nuudge/homebrew-tap](nuudge--homebrew-tap/README.md) — Homebrew formulae for nudge: https://github.com/nuudge/nudge. A coding agent for your terminal and on the go.
+- [th0mps0nty/homebrew-draftly](th0mps0nty--homebrew-draftly/README.md) — No description supplied.
+- [bator/dawarich-custom](bator--dawarich-custom/README.md) — Custom Dawarich code for (GTFS/transit, track_pick) + restore_custom.py for community-script upgrades
+- [joshuay03/raptor](joshuay03--raptor/README.md) — A high-performance Ruby web server (rawr 🦖)
+- [akleizor/homebrew-tap](akleizor--homebrew-tap/README.md) — Homebrew formulae for akleizor's tools
+- [oil-oil/homebrew-tap](oil-oil--homebrew-tap/README.md) — Official Homebrew tap for Oil Studio and macOS tools by Oil Oil
+- [idyl-labs/homebrew-tap](idyl-labs--homebrew-tap/README.md) — No description supplied.
+- [szabgab/ruby-digger](szabgab--ruby-digger/README.md) — Ruby Digger analyzes Ruby Gems
+- [cjohnhanson/homebrew-tap](cjohnhanson--homebrew-tap/README.md) — Homebrew formulas for cjohnhanson's tools
+- [pubid/pubid-grammar](pubid--pubid-grammar/README.md) — The pubid grammar(s): language-independent parsanol-syntax formal grammars, artifacts, capture schemas, corpora, and binding specs for pubid-ruby, pubid-ts and pubid-rs
+- [orin-dx/homebrew-tap](orin-dx--homebrew-tap/README.md) — Checksum-pinned Homebrew formulae for Orin DX tools
+- [oleg-khil/funcstuff](oleg-khil--funcstuff/README.md) — A collection of small and minimalistic libraries with implementations of concepts found in functional languages
+- [nowledge-co/homebrew-tap](nowledge-co--homebrew-tap/README.md) — Homebrew tap for Nowledge Labs
+- [gwendall/homebrew-tap](gwendall--homebrew-tap/README.md) — Homebrew casks by Gwendall
+- [elohmeier/homebrew-tap](elohmeier--homebrew-tap/README.md) — No description supplied.
+- [agentica-lang/agentica-db](agentica-lang--agentica-db/README.md) — Database package for Agentica: one API for PostgreSQL, SQLite and MySQL through the FFI
+- [smalhasib/homebrew-maclean](smalhasib--homebrew-maclean/README.md) — Homebrew tap for Maclean, the open-source macOS disk space analyzer
+- [Tomas-Corza/sonic-pi-music-projects](Tomas-Corza--sonic-pi-music-projects/README.md) — Electronic music compositions and live-coding experiments using Sonic Pi, Ruby, synthesis, and algorithmic sequencing.
+- [mattkerr09/homebrew-docket](mattkerr09--homebrew-docket/README.md) — Homebrew tap for Docket SEO: brew install --cask mattkerr09/docket/docket-seo
+- [indigolain/graphql_tag_rbs](indigolain--graphql_tag_rbs/README.md) — Generates RBS types for GraphQL operations plucked by graphql_tag_pluck
+- [tmravic/FluencyJournal](tmravic--FluencyJournal/README.md) — Your Ai-powered foreign-language daily diary
+- [myonathanlinkedin/ruby-algorithms-lab](myonathanlinkedin--ruby-algorithms-lab/README.md) — 💎 Ruby Idiomatic & Metaprogramming Algorithms Lab - Maintained by @myonathanlinkedin.
+- [hitblast/homebrew-tap](hitblast--homebrew-tap/README.md) — Homebrew tap for all of my personal projects.
+- [indigolain/graphql_tag_pluck](indigolain--graphql_tag_pluck/README.md) — No description supplied.
+- [ruby-oauth/oauth2](ruby-oauth--oauth2/README.md) — 🔐 oauth2 - A Ruby wrapper for the OAuth 2.0, & 2.1 Authorization Frameworks, including OpenID Connect (OIDC)
+- [tbergeron/homebrew-bosk](tbergeron--homebrew-bosk/README.md) — No description supplied.
+- [champrep/homebrew-cli](champrep--homebrew-cli/README.md) — No description supplied.
+- [vadelabs/homebrew-tap](vadelabs--homebrew-tap/README.md) — Homebrew tap + release binaries for the Orbit CLI (orbit). brew install vadelabs/tap/orbit
+- [connorshea/vglist](connorshea--vglist/README.md) — A video game library tracking web app built in Rails and powered by Wikidata.
+- [AI-AgentLens/homebrew-tap](AI-AgentLens--homebrew-tap/README.md) — Homebrew formulae for AgentShield
+- [hrsong99/homebrew-halftype](hrsong99--homebrew-halftype/README.md) — Homebrew tap for Itda
+- [MhmmdRFadhil/homebrew-wisp](MhmmdRFadhil--homebrew-wisp/README.md) — No description supplied.
+- [ruby-oauth/warden_oauth](ruby-oauth--warden_oauth/README.md) — OAuth Strategy generator for Warden Authentication Framework
+- [ruby-oauth/version_gem](ruby-oauth--version_gem/README.md) — 🔖 Enhance that VERSION! Sugar for boring Version modules
+- [nozomi-koborinai/homebrew-tap](nozomi-koborinai--homebrew-tap/README.md) — 📦 Homebrew formulae for my projects
+- [ruby-oauth/snaky_hash](ruby-oauth--snaky_hash/README.md) — 🐍 A Hashie::Mash joint to improve #snake_life for everyone
+- [ruby-oauth/oauth2-mcp](ruby-oauth--oauth2-mcp/README.md) — 🔮 Rack/Roda-compatible resource-server toolkit for Oauth2.1 MCP Auth
+- [ruby-oauth/auth-sanitizer](ruby-oauth--auth-sanitizer/README.md) — 🟥 Configurable KV output redaction
+- [ruby-oauth/anonymous_loader](ruby-oauth--anonymous_loader/README.md) — 💎 Anonymously load modules without defining their top-level namespace in Ruby 2.2+
+- [rubocop-lts/standard-rubocop-lts](rubocop-lts--standard-rubocop-lts/README.md) — Extended Standard Ruby Configs for Finely Aged Rubies
+- [rubocop-lts/rubocop-ruby3_2](rubocop-lts--rubocop-ruby3_2/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby3_1](rubocop-lts--rubocop-ruby3_1/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby3_0](rubocop-lts--rubocop-ruby3_0/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby2_7](rubocop-lts--rubocop-ruby2_7/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby2_6](rubocop-lts--rubocop-ruby2_6/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby2_5](rubocop-lts--rubocop-ruby2_5/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby2_4](rubocop-lts--rubocop-ruby2_4/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby2_3](rubocop-lts--rubocop-ruby2_3/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [gshaw/marine_data](gshaw--marine_data/README.md) — Marine weather buoys and tide stations as JSON
+- [rubocop-lts/rubocop-ruby2_2](rubocop-lts--rubocop-ruby2_2/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby2_1](rubocop-lts--rubocop-ruby2_1/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby2_0](rubocop-lts--rubocop-ruby2_0/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby1_9](rubocop-lts--rubocop-ruby1_9/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-ruby1_8](rubocop-lts--rubocop-ruby1_8/README.md) — Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [rubocop-lts/rubocop-lts-ruby](rubocop-lts--rubocop-lts-ruby/README.md) — Std Lib Gating Cops-per-each Version of Ruby
+- [rubocop-lts/rubocop-lts-rspec](rubocop-lts--rubocop-lts-rspec/README.md) — Meta gem for projects tested with RSpec & linted with rubocop-lts
+- [rubocop-lts/rubocop-lts](rubocop-lts--rubocop-lts/README.md) — Rubocop LTS - Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+- [kettle-dev/token-resolver](kettle-dev--token-resolver/README.md) — 🪙 Configurable PEG-based token parser and resolver for structured token detection and replacement in arbitrary text
+- [kettle-dev/nomono](kettle-dev--nomono/README.md) — 1️⃣ Q: When is a Monorepo not A Monorepo? A: When it is a nomono. Just a bunch of repos in the same directory.
+- [kettle-dev/kettle-wash](kettle-dev--kettle-wash/README.md) — 🚿 Runner up name: "constant_change". A gem for your test / spec harness providing a pattern for resetting constants; Enable simpler testing, and consistent deterministic results.
+- [kettle-dev/kettle-test](kettle-dev--kettle-test/README.md) — 🍲 Setup a complete multi-core parallelized RSpec test harness, temporal manipulation, silent output testing, block expectations, etc.
+- [kettle-dev/kettle-soup-cover](kettle-dev--kettle-soup-cover/README.md) — 🥘 A Covered Kettle of SOUP, A Code Coverage Meta Gem
+- [kettle-dev/kettle-rb](kettle-dev--kettle-rb/README.md) — 📏 The RRRRRb Matrix
+- [kettle-dev/kettle-paths](kettle-dev--kettle-paths/README.md) — Cross-OS Pathing is complicated
+- [kettle-dev/kettle-ndjson](kettle-dev--kettle-ndjson/README.md) — 📟️ NDJSON event stream primitives, filters, recorders, and payload helpers shared by Kettle CLI tools.
+- [kettle-dev/kettle-gha-pins](kettle-dev--kettle-gha-pins/README.md) — 📌 Update kettle-gha-pins across workflows by major / minor / patch level; cooldown optional
+- [kettle-dev/kettle-drift](kettle-dev--kettle-drift/README.md) — 🍲 Detect, and determine, whether duplication is document corruption or intentional
+- [kettle-dev/kettle-deps-floor](kettle-dev--kettle-deps-floor/README.md) — AST-based RubyGems dependency floor management
+- [galtzo-floss/yard-yaml](galtzo-floss--yard-yaml/README.md) — 🥨 A YARD plugin for YAML documents
+- [galtzo-floss/yard-timekeeper](galtzo-floss--yard-timekeeper/README.md) — 🕰️ Don't churn your yard like butter. Use yard-timekeeper to keep unchanged docs pristine.
+- [KRMaravilla6/sketchupBambanin](KRMaravilla6--sketchupBambanin/README.md) — 3D model sketchup ruby code
+- [galtzo-floss/yard-fence](galtzo-floss--yard-fence/README.md) — 🤺 A YARD plugin to prevent InvalidLink warnings. Convert ASCII braces ('{}') to full-width braces ('{}') within code fences (triple-or-single backticks) during YARD processing, and back to ASCII braces afterward
+- [galtzo-floss/yaml-converter](galtzo-floss--yaml-converter/README.md) — 🥨 Convert YAML to other formats (.md, .html, .pdf, .docx)
+- [galtzo-floss/turbo_tests2](galtzo-floss--turbo_tests2/README.md) — 🚀 Run RSpec tests on multiple cores. Like parallel_tests but with incremental summarized output. Originally extracted from the Discourse and Rubygems source code.
+- [galtzo-floss/timecop-rspec](galtzo-floss--timecop-rspec/README.md) — ⌚️ Timecop::Rspec provides Timecop time-machines for RSpec that allow you to time-travel test examples, context/describes, and/or your entire test suite.
+- [galtzo-floss/stone_checksums](galtzo-floss--stone_checksums/README.md) — 🗿 Generate SHA-256 and SHA-512 checksums of a RubyGem
+- [galtzo-floss/spyke-connection_lambda](galtzo-floss--spyke-connection_lambda/README.md) — Spyke plugin allowing dynamic API connections per model, per thread
+- [NormB/homebrew-tap](NormB--homebrew-tap/README.md) — Homebrew tap for sipnab — brew install NormB/tap/sipnab
+- [galtzo-floss/simple_column-scopes](galtzo-floss--simple_column-scopes/README.md) — 🏛️ Simple ActiveRecord Scopes based on columns to tame wild models
+- [galtzo-floss/silent_stream](galtzo-floss--silent_stream/README.md) — 🔕 ActiveSupport Stream Silencing/Capturing - Without ActiveSupport
+- [galtzo-floss/shields-badge](galtzo-floss--shields-badge/README.md) — RubyGem version of the interactive tool found at shields.io/badges
+- [DIYgod/homebrew-tap](DIYgod--homebrew-tap/README.md) — Homebrew casks: brew install --cask diygod/tap/pinky
+- [galtzo-floss/sanitize_email](galtzo-floss--sanitize_email/README.md) — 📧 An Email Condom for your Ruby Server
+- [galtzo-floss/runtime_groups](galtzo-floss--runtime_groups/README.md) — Runtime-weighted grouping plus count/pid plumbing
+- [galtzo-floss/rspec-stubbed_env](galtzo-floss--rspec-stubbed_env/README.md) — 🫥 Unobtrusively stub/hide ENV keys and values during testing
+- [galtzo-floss/rspec-pending_for](galtzo-floss--rspec-pending_for/README.md) — ⏳️Mark specs pending or skipped for specific Ruby engine (e.g. MRI or JRuby) / version combinations | ranges
+- [galtzo-floss/require_bench](galtzo-floss--require_bench/README.md) — Benchmark/Timeout/Rescue Ruby's `require`/`load` for Debugging Glory
+- [galtzo-floss/month-serializer](galtzo-floss--month-serializer/README.md) — Serialize Month objects to Integer
+- [galtzo-floss/library_tree](galtzo-floss--library_tree/README.md) — Six-degrees of (Kevin Bacon's?) Module. Builds a tree of module inclusion of a target module into other modules.
+- [galtzo-floss/include_with_respect](galtzo-floss--include_with_respect/README.md) — Find out if your include/extend hooks are misbehaving!
+- [galtzo-floss/gitmoji-regex](galtzo-floss--gitmoji-regex/README.md) — 🔥 A regular expression matching Gitmoji (a subset of Unicode Emoji) symbols
+- [galtzo-floss/gem_bench](galtzo-floss--gem_bench/README.md) — 🪑 Benchmark different versions of same or similar gems & Static Gemfile and installed gem library source code analysis
+- [RoversX/homebrew-tap](RoversX--homebrew-tap/README.md) — No description supplied.
+- [floss-funding/floss_funding](floss-funding--floss_funding/README.md) — 🦷 Help overlooked open source projects - the ones at the bottom of the stack, and the dev dependencies - by funding them.
+- [galtzo-floss/flag_shih_tzu](galtzo-floss--flag_shih_tzu/README.md) — 🏁 Bit fields for ActiveRecord
+- [galtzo-floss/debug_logging](galtzo-floss--debug_logging/README.md) — Unobtrusive, configurable, drop-in debug logging useful when a call stack gets unruly
+- [galtzo-floss/activesupport-tagged_logging](galtzo-floss--activesupport-tagged_logging/README.md) — Rails v8 ActiveSupport::TaggedLogging backported to support Rails v5.2, 6, 7, & 8, Ruby 3.1+
+- [Brainwires/homebrew-tap](Brainwires--homebrew-tap/README.md) — Homebrew tap for Brainwires apps (Qutty)
+- [galtzo-floss/activesupport-logger](galtzo-floss--activesupport-logger/README.md) — Rails v8 ActiveSupport::Logger backported to Rails v5.2+ & Ruby 3.1+
+- [galtzo-floss/activesupport-broadcast_logger](galtzo-floss--activesupport-broadcast_logger/README.md) — Rails v8 ActiveSupport::BroadcastLogger, fixed & backported to Rails v5.2+ & Ruby 3.1+
+- [galtzo-floss/activerecord-transactionable](galtzo-floss--activerecord-transactionable/README.md) — Properly Implement ActiveRecord Transactions
+- [galtzo-floss/active_security](galtzo-floss--active_security/README.md) — Disallow Unscoped Find for a Restful Night Sleep
+- [appraisal-rb/kettle-jem-appraisals](appraisal-rb--kettle-jem-appraisals/README.md) — 🍲 Kettle::Jem::Appraisals auto-generates CI test matrices from RubyGems API data. Scaffolds tier1/tier2 gem lists from gemspec, resolves version spreads per mode (major/minor/minor-minmax/semver), generates modular gemfiles and Appraisals files. Part of the kettle-dev ecosystem.
+- [appraisal-rb/gem_mine](appraisal-rb--gem_mine/README.md) — A never ending gem mine. Generate as many gems as you can stuff your pockets with.
+- [appraisal-rb/appraisal2-rubocop](appraisal-rb--appraisal2-rubocop/README.md) — 🔍️ Appraisal2 Hooks for Automated RuboCop Linting of Appraisals
+- [pyrite-project/discourse-pyrite-ide-extensions](pyrite-project--discourse-pyrite-ide-extensions/README.md) — Extension registry for Pyrite IDE with Discourse
+- [estevanhernandez-stack-ed/homebrew-tap](estevanhernandez-stack-ed--homebrew-tap/README.md) — Homebrew tap for Sanduhr and other Estevan Hernandez Mac apps
+- [asandhu-33/DogCatalog](asandhu-33--DogCatalog/README.md) — No description supplied.
+- [OpenMS/homebrew-openms](OpenMS--homebrew-openms/README.md) — Homebrew tap for OpenMS (nightly bottles)
+- [staticparsley/nerv-compliance](staticparsley--nerv-compliance/README.md) — No description supplied.
+- [kitforge-tech/velvetkit](kitforge-tech--velvetkit/README.md) — AI Rails UI Components for end to end product building
+- [digitaldrywood/homebrew-tap](digitaldrywood--homebrew-tap/README.md) — Homebrew tap for Symphony — install via: brew install digitaldrywood/tap/symphony
+- [osyoyu/pf2](osyoyu--pf2/README.md) — A sampling-based profiler for Ruby
+- [SchwartzKamel/homebrew-tap](SchwartzKamel--homebrew-tap/README.md) — Homebrew tap for hopper, the AOT command-line agent for Azure OpenAI (a mirror: the formulas live in SchwartzKamel/hopper)
+- [wonash/wonash.github.io](wonash--wonash.github.io/README.md) — No description supplied.
+- [gstark/homebrew-tap](gstark--homebrew-tap/README.md) — Homebrew formulae
+- [netchuu/homebrew-tap](netchuu--homebrew-tap/README.md) — Homebrew tap and installer for the Relay Mac helper (answer Claude Code from your iPhone)
+- [skim0119/homebrew-tap](skim0119--homebrew-tap/README.md) — No description supplied.
+- [mitou/jr.mitou.org](mitou--jr.mitou.org/README.md) — 小中高生クリエータ支援プログラム『未踏ジュニア』の公式Webサイトです! YAML ファイルで更新できます 🛠💨
+- [iamprivacy/homebrew-lavender](iamprivacy--homebrew-lavender/README.md) — No description supplied.
+- [harinandan-reddy/homebrew-tap](harinandan-reddy--homebrew-tap/README.md) — No description supplied.
+- [frkawa/daily-tech-news](frkawa--daily-tech-news/README.md) — No description supplied.
+- [elanthia-online/ProfanityFE](elanthia-online--ProfanityFE/README.md) — A terminal frontend for Simutronics games based on Ruby and Ncurses.
+- [snutij/esport_ics](snutij--esport_ics/README.md) — Free ICS calendar subscriptions for esport teams — track LoL, CS2, Valorant, Dota 2 and more in any calendar app
+- [DerekStride/strava-stats](DerekStride--strava-stats/README.md) — A minimal, calendar-based visualization of Strava activity data, automatically updated monthly via GitHub Actions and served via GitHub Pages.
+- [raucheacho/homebrew-tap](raucheacho--homebrew-tap/README.md) — pour les projets libre et open source
+- [creasty/homebrew-tools](creasty--homebrew-tools/README.md) — @creasty's toolbox for Homebrew
+- [Aether-Runtime/homebrew-aether](Aether-Runtime--homebrew-aether/README.md) — Homebrew tap for the Aether CLI
+- [seven1m/bible_api](seven1m--bible_api/README.md) — Ruby web app that serves JSON API for open and public domain bibles
+- [dolazuli/blog](dolazuli--blog/README.md) — No description supplied.
+- [fogapp/fin](fogapp--fin/README.md) — No description supplied.
+- [aoha0-0/FanPocket](aoha0-0--FanPocket/README.md) — No description supplied.
+- [kanywst/homebrew-tap](kanywst--homebrew-tap/README.md) — kanywst's Homebrew tap — CLI tools with SBOMs and cosign-signed releases
+- [seongilp/homebrew-tap](seongilp--homebrew-tap/README.md) — No description supplied.
+- [gipsic/homebrew-tap](gipsic--homebrew-tap/README.md) — Homebrew tap for GIPSIC tools — brew tap gipsic/tap
+- [geyutu6755/homebrew-tap](geyutu6755--homebrew-tap/README.md) — Homebrew tap for shipsmoke - verify that release artifacts actually run on the target OS.
+- [MRT-Map/homebrew-mrt-map](MRT-Map--homebrew-mrt-map/README.md) — MRT-Map's homebrew tap
+- [hugoh/homebrew-tap](hugoh--homebrew-tap/README.md) — Homebrew tap
+- [nayu7u/study-reactionview](nayu7u--study-reactionview/README.md) — GLMが一晩でやってくれました
+- [s546126/homebrew-tap](s546126--homebrew-tap/README.md) — Homebrew tap for Disklessly
+- [vstorm-co/homebrew-agenticos](vstorm-co--homebrew-agenticos/README.md) — Homebrew tap for the AgenticOS desktop app
+- [sjhillsteve/Multi-Tenant-SaaS-Core](sjhillsteve--Multi-Tenant-SaaS-Core/README.md) — Foundation architecture enabling strict data isolation in multi-tenant SaaS.
+- [csci3100-cuhk/demo](csci3100-cuhk--demo/README.md) — Demos for CSCI3100
+- [rurihakobe741493-spec/receipt-shopping-support](rurihakobe741493-spec--receipt-shopping-support/README.md) — No description supplied.
+- [m8test-scripts/ruby-template](m8test-scripts--ruby-template/README.md) — No description supplied.
+- [graspable-dev/homebrew-tap](graspable-dev--homebrew-tap/README.md) — Homebrew tap for grasp, the Graspable command line
+- [jxu-dev-c/homebrew-stillnote](jxu-dev-c--homebrew-stillnote/README.md) — Homebrew installation for Stillnote and its local speech runtime
+- [wwworkremote/wwworkremote](wwworkremote--wwworkremote/README.md) — Local-first job search system: ingest, rank, triage, apply with supervision, and prepare for interviews.
+- [pooza/ginseng-core](pooza--ginseng-core/README.md) — No description supplied.
+- [pooza/ginseng-redis](pooza--ginseng-redis/README.md) — No description supplied.
+- [kobaltz/swot](kobaltz--swot/README.md) — :school: Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
+- [nikomatt69/homebrew-tap](nikomatt69--homebrew-tap/README.md) — Homebrew tap for nikcli
+- [mayeco/openspec-kit](mayeco--openspec-kit/README.md) — Specification-first multi-agent orchestration kit that lets AI coding agents specify, build, verify, and integrate software with OpenSpec.
+- [InternationalRiversiders/discourse-rsc](InternationalRiversiders--discourse-rsc/README.md) — No description supplied.
+- [benzlokzik/benzlokzik](benzlokzik--benzlokzik/README.md) — benzlokzik's profile readme
+- [ryvn-technologies/homebrew-tap](ryvn-technologies--homebrew-tap/README.md) — Homebrew tap for ryvn cli
+- [hackclub/attend](hackclub--attend/README.md) — Onboarding, travel, and safeguarding for under-18 participants at in-person Hack Club events
+- [Tatakinov/ninix-kagari](Tatakinov--ninix-kagari/README.md) — A fork of ninix-aya
+- [opencx-labs/homebrew-tap](opencx-labs--homebrew-tap/README.md) — Homebrew tap for Catamorphic releases
+- [navbytes/homebrew-tap](navbytes--homebrew-tap/README.md) — No description supplied.
+- [mythofmeat/homebrew-shore](mythofmeat--homebrew-shore/README.md) — Homebrew tap for shore: brew install mythofmeat/shore/shore
+- [catkins/rivet-rb](catkins--rivet-rb/README.md) — Ruby bindings to the rivet crate
+- [Nounsidev/Nounsidev.github.io](Nounsidev--Nounsidev.github.io/README.md) — No description supplied.
+- [nicolaspearson/homebrew-tap](nicolaspearson--homebrew-tap/README.md) — Homebrew formulae for ele
+- [arduino0420/quickflow](arduino0420--quickflow/README.md) — No description supplied.
+- [anthonymaley/homebrew-musictui](anthonymaley--homebrew-musictui/README.md) — Homebrew tap for MusicTUI — Apple Music TUI + CLI for macOS
+- [imagewize/homebrew-tap](imagewize--homebrew-tap/README.md) — Homebrew tap for Imagewize CLI tools
+- [cephalonhq/homebrew-tap](cephalonhq--homebrew-tap/README.md) — Homebrew tap for Cephalon apps
+- [DanySK/workflows](DanySK--workflows/README.md) — Ready-to-reuse GitHub actions workflows
+- [mclucy/homebrew-tap](mclucy--homebrew-tap/README.md) — For Homebrew installation
+- [kenotron-ms/homebrew-tap](kenotron-ms--homebrew-tap/README.md) — Homebrew taps
+- [zaphod42/sbwi-calendar](zaphod42--sbwi-calendar/README.md) — Pull down all of the SBWI events and store them in a single ical so that I can see what is coming up on my google calendar
+- [ruby-oauth/oauth](ruby-oauth--oauth/README.md) — 🔑 A Ruby wrapper for OAuth 1.0, and 1.0a protocols; clients & servers
+- [PeterTh/llm-eval-local](PeterTh--llm-eval-local/README.md) — No description supplied.
+- [imdanishk/flutter-ai-kit](imdanishk--flutter-ai-kit/README.md) — Agent-agnostic skills and installer for building Flutter apps with AI coding agents.
+- [superiorlu/AITreasureBox](superiorlu--AITreasureBox/README.md) — 🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎
+- [jarvisrchen/homebrew-yogurt](jarvisrchen--homebrew-yogurt/README.md) — Homebrew tap for yogurt - local-first meeting copilot.
+- [thoran/macos.rb](thoran--macos.rb/README.md) — No description supplied.
+- [PerpetualSoftware/homebrew-tap](PerpetualSoftware--homebrew-tap/README.md) — No description supplied.
+- [riki0303/dokoiku](riki0303--dokoiku/README.md) — No description supplied.
+- [kaionn/kaionn](kaionn--kaionn/README.md) — Config files for my GitHub profile.
+- [BoriasanAI/bori-blog](BoriasanAI--bori-blog/README.md) — 보리의 자율 블로그 — AI가 스스로 쓰고, 검토하고, 발행합니다 | Bori's Autonomous Blog
+- [Homebrew/brew](Homebrew--brew/README.md) — 🍺 The Package Manager for Everywhere
+- [philosophynote/dopafeed](philosophynote--dopafeed/README.md) — No description supplied.
+- [dphilabs/homebrew-fiber](dphilabs--homebrew-fiber/README.md) — fiber homebrew
+- [zawn/homebrew-nojdk](zawn--homebrew-nojdk/README.md) — Include some sdk like sdkman without openjdk dependencies
+- [antiwork/gumroad](antiwork--gumroad/README.md) — See what sticks
+- [itchyny/homebrew-tap](itchyny--homebrew-tap/README.md) — Homebrew formulae
+- [swombat/souls-house](swombat--souls-house/README.md) — A platform for hosting persistent AI agents that live, rather than stateless assistants that wake, perform, and vanish.
+- [WithWontae/homebrew-tap](WithWontae--homebrew-tap/README.md) — Homebrew tap for cowork (CoworkAtlas)
+- [rewin0087/timelog](rewin0087--timelog/README.md) — No description supplied.
+- [ryuma-1/Campass](ryuma-1--Campass/README.md) — No description supplied.
+- [thkprado/homebrew-jlens](thkprado--homebrew-jlens/README.md) — Homebrew tap of jlens, a JSONata engine
+- [Ev4LiA/ruby-algorithm](Ev4LiA--ruby-algorithm/README.md) — My Ruby playground
+- [akitohidata211228/githijau-ruby](akitohidata211228--githijau-ruby/README.md) — 🌱 Auto activity repo (githijau) — kontribusi harian otomatis.
+- [leepokai/homebrew-codync](leepokai--homebrew-codync/README.md) — Homebrew tap for Codync — message your coding agents as bots
+- [calacademy-research/antcat](calacademy-research--antcat/README.md) — World Catalog of Ants
+- [cloudfoundry/nats-release](cloudfoundry--nats-release/README.md) — No description supplied.
+- [kejadlen/low-quality-transcripts](kejadlen--low-quality-transcripts/README.md) — No description supplied.
+- [chujiamo/homebrew-tap](chujiamo--homebrew-tap/README.md) — No description supplied.
+- [takushio2525/homebrew-proglens](takushio2525--homebrew-proglens/README.md) — Homebrew tap for progLens
+- [centient-labs/homebrew-centient](centient-labs--homebrew-centient/README.md) — Homebrew tap for Centient Labs public binaries (centient, engram)
+- [BuddhiLW/homebrew-tap](BuddhiLW--homebrew-tap/README.md) — Homebrew tap for ClojureWasm (brew install buddhilw/tap/cljw)
+- [ruby/ruby](ruby--ruby/README.md) — The Ruby Programming Language
+- [ddnexus/pagy](ddnexus--pagy/README.md) — Agnostic pagination in plain ruby
+- [Round-Tower/homebrew-tap](Round-Tower--homebrew-tap/README.md) — Homebrew tap for Round Tower's Mac apps — brew install --cask round-tower/tap/m1k3
+- [livetennisapi/huginn_live_tennis_agent](livetennisapi--huginn_live_tennis_agent/README.md) — Huginn agent for the Live Tennis API: match_started / score_changed / match_finished and fixture events, FREE-tier endpoints, vendor-authored
+- [ampcode/homebrew-tap](ampcode--homebrew-tap/README.md) — Homebrew tap for AmpCode
+- [Izuulo/homebrew-tap](Izuulo--homebrew-tap/README.md) — No description supplied.
+- [Growstuff/growstuff](Growstuff--growstuff/README.md) — Open data project for small-scale food growers, written in rails
+- [kusumotoa/homebrew-tap](kusumotoa--homebrew-tap/README.md) — Homebrew tap for kusumotoa's tools
+- [exercism/website](exercism--website/README.md) — The codebase for Exercism's website. 
+- [NakliTechie/homebrew-tap](NakliTechie--homebrew-tap/README.md) — Homebrew tap for NakliTechie browser-native tools
+- [hua-ri/homebrew-tap](hua-ri--homebrew-tap/README.md) — Homebrew tap for hua-ri tools
+- [pooza/ginseng-style](pooza--ginseng-style/README.md) — pooza の Ruby プロジェクト共通の RuboCop 設定と規約の正本
+- [lutaml/lutaml-xsd](lutaml--lutaml-xsd/README.md) — Model accessor for XSDs
+- [lutaml/canon](lutaml--canon/README.md) — Ruby library and RSpec matchers for canonicalization of XML, YAML and JSON (e.g. for comparison)
+- [fahadjibransheikh/homebrew-flock](fahadjibransheikh--homebrew-flock/README.md) — Homebrew tap for Fahad Sheikh's Mac apps
+- [Silvertree2010/homebrew-noname](Silvertree2010--homebrew-noname/README.md) — Homebrew tap for noname
+- [Beastry/homebrew-tap](Beastry--homebrew-tap/README.md) — Homebrew tap for Beastry apps (Stow and others)
+- [code-dot-org/k8s-gitops](code-dot-org--k8s-gitops/README.md) — Repo for storing gitops manifests relevant to ArgoCD managing our k8s clusters
+- [opf/openproject](opf--openproject/README.md) — OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt charts, time tracking, collaboration features, and more. Available on premises or in the cloud. ⭐ Star us on GitHub
+- [homeport-sh/homebrew-tap](homeport-sh--homebrew-tap/README.md) — Homebrew tap for homeport — brew install homeport-sh/tap/homeport
+- [rdavid/renamr](rdavid--renamr/README.md) — Normalizes file and directory names to lowercase letters, digits, and hyphens
+- [vendyluo/homebrew-tap](vendyluo--homebrew-tap/README.md) — No description supplied.
+- [carlostapiacl/homebrew-tap](carlostapiacl--homebrew-tap/README.md) — Homebrew tap for tartaros
+- [kadaliao/homebrew-tap](kadaliao--homebrew-tap/README.md) — Homebrew tap：sessift 等
+- [zecalis/homebrew-tap](zecalis--homebrew-tap/README.md) — Homebrew tap for zecalis tools — brew install zecalis/tap/<tool>
+- [murrely-source/project-atlas](murrely-source--project-atlas/README.md) — This is the temporary home for Solaris Nexus Dashboard
+- [lwm-luminx/hedonism_bot](lwm-luminx--hedonism_bot/README.md) — No description supplied.
+- [teralabx/homebrew-tap](teralabx--homebrew-tap/README.md) — Homebrew formulae for teralabx tools
+- [TheBusyDev/homebrew-linux](TheBusyDev--homebrew-linux/README.md) — 🍺 A collection of Homebrew formulae/casks (for Linux), automatically updated through GitHub workflows!
+- [joparisot/4percentcalc](joparisot--4percentcalc/README.md) — Historical backtesting calculator for the 4% retirement rule
+- [dominikknafelj/ContentSpiel](dominikknafelj--ContentSpiel/README.md) — No description supplied.
+- [islandmed/homebrew-tap](islandmed--homebrew-tap/README.md) — Homebrew tap for SculptForge
+- [zhongkechen/wiki](zhongkechen--wiki/README.md) — Zhongke's Personal Wiki
+- [metanorma/metanorma-iso](metanorma--metanorma-iso/README.md) — Metanorma processor for ISO standards
+- [ruby-gtk-project/AudioSharing-rb](ruby-gtk-project--AudioSharing-rb/README.md) — Ruby GTK4 port of Audio Sharing. Upstream: https://gitlab.gnome.org/World/AudioSharing
+- [reidab/ikea-as-is-recent-changes](reidab--ikea-as-is-recent-changes/README.md) — A recent changes feed for IKEA Portland's As-Is section
+- [dugal/homebrew-tap](dugal--homebrew-tap/README.md) — Homebrew tap for tools published under dugal
+- [TerraScale/homebrew-tap](TerraScale--homebrew-tap/README.md) — Homebrew formulas for TerraScale command-line tools
+- [rchrp/homebrew-tap](rchrp--homebrew-tap/README.md) — No description supplied.
+- [metanorma/metanorma](metanorma--metanorma/README.md) — The Metanorma project: www.metanorma.org
+- [metanorma/metanorma-standoc](metanorma--metanorma-standoc/README.md) — Metanorma for Standoc documents
+- [ruby-gtk-project/Citations-rb](ruby-gtk-project--Citations-rb/README.md) — Ruby GTK4 port of Citations. Upstream: https://gitlab.gnome.org/World/citations
+- [vottie/eat_record](vottie--eat_record/README.md) — No description supplied.
+- [TenjinInc/invar](TenjinInc--invar/README.md) — Single source of truth for environmental configuration.
+- [Correia-jpv/fucking-awesome-swift](Correia-jpv--fucking-awesome-swift/README.md) — A collaborative list of awesome Swift libraries and resources. Feel free to contribute! With repository stars⭐ and forks🍴
+- [metanorma/metanorma-plugin-lutaml](metanorma--metanorma-plugin-lutaml/README.md) — Metanorma plugin: access LutaML objects from within a Metanorma document
+- [TenjinInc/procrastinator](TenjinInc--procrastinator/README.md) — Delayed task queues made simple.
+- [bpeterme/homebrew-claudebox](bpeterme--homebrew-claudebox/README.md) — Claude Code in a box — isolated containers per project, config and history sync across machines.
+- [koduki/anyspec](koduki--anyspec/README.md) — No description supplied.
+- [felipeelias/resubject](felipeelias--resubject/README.md) — Resubject makes easy to decorate your objects
+- [metanorma/metanorma-cli](metanorma--metanorma-cli/README.md) — CLI (Command Line Interface) for Metanorma
+- [yamln0proof/tarantula](yamln0proof--tarantula/README.md) — A Web Crawler to Crawl!
+- [zazedd/brew-api](zazedd--brew-api/README.md) — Saved api outputs of various brew tap repos I want, including main one
+- [quome-cloud/homebrew-quome](quome-cloud--homebrew-quome/README.md) — Homebrew tap for Quome CLI
+- [masisz/rufio](masisz--rufio/README.md) — Runtime Unified Flow I/O Operator
+- [rainpour/raindown](rainpour--raindown/README.md) — A Markdown superset where data stays current and complete
+- [Moaaz-i/homebrew-jprot](Moaaz-i--homebrew-jprot/README.md) — No description supplied.
+- [rdmmoonlight/my-rails-app](rdmmoonlight--my-rails-app/README.md) — Ruby on Rails. Terinspirasi github
+- [copie/homebrew-core-lite](copie--homebrew-core-lite/README.md) — No description supplied.
+- [fnando/email_data](fnando--email_data/README.md) — This project is a compilation of datasets related to emails. Includes disposable emails, disposable domains, and free email services.
+- [ornse01/dockerfile_update_experiment](ornse01--dockerfile_update_experiment/README.md) — No description supplied.
+- [bpeterme/homebrew-claudedot](bpeterme--homebrew-claudedot/README.md) — No description supplied.
+- [honkeandpastrami/homebrew-tap](honkeandpastrami--homebrew-tap/README.md) — Homebrew tap for honkeandpastrami tools
+- [metanorma/mn-samples-iso](metanorma--mn-samples-iso/README.md) — The ISO Rice model in IsoDoc (in the format of Metanorma-ISO)
+- [etsenake/homebrew-tap](etsenake--homebrew-tap/README.md) — Homebrew tap for pi-garden
+- [bspiegel27/bst_236_website](bspiegel27--bst_236_website/README.md) — GitHub Pages Website for Computing Class
+- [bpeterme/homebrew-flux](bpeterme--homebrew-flux/README.md) — No description supplied.
+- [planetaryescape/homebrew-mxr](planetaryescape--homebrew-mxr/README.md) — Homebrew tap for mxr terminal email client
+- [markryall/homebrew-tap](markryall--homebrew-tap/README.md) — Homebrew casks for my projects
+- [codeprosorg/homebrew-codepros](codeprosorg--homebrew-codepros/README.md) — CodePros Homebrew Tap
+- [xuxiaowei-com-cn/discourse-sms](xuxiaowei-com-cn--discourse-sms/README.md) — 一个 Discourse 插件：通过任意外部短信服务商，将已验证的手机号绑定到会员账号。服务商接口 约定非常小：一个发送验证码 API，一个校验验证码 API。
+- [taxmeifyoucan/pg-bot](taxmeifyoucan--pg-bot/README.md) — Tracking PG members contributions
+- [ziradocs/homebrew-tap](ziradocs--homebrew-tap/README.md) — No description supplied.
+- [mrjoshuak/homebrew-tap](mrjoshuak--homebrew-tap/README.md) — Homebrew formulae for the C4 toolkit
+- [rbleite/homebrew-tap](rbleite--homebrew-tap/README.md) — Homebrew tap for rbleite tools (drive-xray, ...)
+- [lukaszraczylo/homebrew-taps](lukaszraczylo--homebrew-taps/README.md) — homebrew taps for my projects
+- [GrantBirki/homebrew-tap](GrantBirki--homebrew-tap/README.md) — Personal Homebrew tap repo
+- [cxwx/homebrew-cxbrew](cxwx--homebrew-cxbrew/README.md) — some homebrew formula
+- [Max17190/homebrew-tap](Max17190--homebrew-tap/README.md) — Homebrew tap for Open Max
+- [rive-app/homebrew-tap](rive-app--homebrew-tap/README.md) — Homebrew tap for rive-cli
+- [schayes04/api](schayes04--api/README.md) — No description supplied.
+- [republic-global/homebrew-tap](republic-global--homebrew-tap/README.md) — No description supplied.
+- [StealthSurf-VPN/homebrew-tap](StealthSurf-VPN--homebrew-tap/README.md) — Homebrew tap for StealthSurf VPN: brew install stealthsurf-vpn/tap/stealthsurf
+- [kccarlos/homebrew-tap](kccarlos--homebrew-tap/README.md) — Homebrew tap for MacOS apps developed by kccarlos
+- [tealvpn/homebrew-tap](tealvpn--homebrew-tap/README.md) — Homebrew tap for Teal VPN on Mac: brew install --cask tealvpn/tap/teal-vpn
+- [lutaml/lutaml-vformat](lutaml--lutaml-vformat/README.md) — No description supplied.
+- [lutaml/lutaml-graphviz](lutaml--lutaml-graphviz/README.md) — Graphviz diagram rendering for lutaml models (lutaml/lutaml#230)
+- [KevinFroehlich/hashmap_odin](KevinFroehlich--hashmap_odin/README.md) — No description supplied.
+- [Undefined1228/homebrew-tap](Undefined1228--homebrew-tap/README.md) — No description supplied.
+- [openfpga-cores-inventory/openfpga-cores-inventory.github.io](openfpga-cores-inventory--openfpga-cores-inventory.github.io/README.md) — No description supplied.
+- [nodematerial/homebrew-tap](nodematerial--homebrew-tap/README.md) — Homebrew formulae for my tools
+- [trungle1612/hueni-api](trungle1612--hueni-api/README.md) — Backend for hueni.me: homestay vacancy API, owner admin, and hourly iCal sync from Airbnb/Booking.
+- [archangel-12/archangel-12](archangel-12--archangel-12/README.md) — this is my readme description. nothing at all...
+- [MadBomber/aia](MadBomber--aia/README.md) — AI Assistant (aia) a Ruby Gem for using genAI on the CLI
+- [SHOGO860/Container-Vuln-Scanner](SHOGO860--Container-Vuln-Scanner/README.md) — Automated CI/CD pipeline step for detecting vulnerabilities in Docker images.
+- [r0adkll/homebrew-tap](r0adkll--homebrew-tap/README.md) — The home for my brew tap formulae
+- [0xnicholasy/homebrew-tap](0xnicholasy--homebrew-tap/README.md) — Homebrew tap for 0xnicholasy tools
+- [lxorb/homebrew-tap](lxorb--homebrew-tap/README.md) — Homebrew tap for Nib, a markdown editor
+- [grahamotte/Sundial](grahamotte--Sundial/README.md) — Schedule and monitor local commands on macOS with launchd
+- [ruby-gtk-project/Amberol-rb](ruby-gtk-project--Amberol-rb/README.md) — Ruby GTK4 port of Amberol. Upstream: https://gitlab.gnome.org/World/amberol
+- [intrusive-memory/homebrew-tap](intrusive-memory--homebrew-tap/README.md) — Homebrew tap for Intrusive Memory CLI tools (proyecto, bruja, echada, hablare, diga, vox, secuencia)
+- [take4mats/rfc7597-util](take4mats--rfc7597-util/README.md) — RFC7521 (MAP-E) tool
+- [rpajarola/homebrew-tap](rpajarola--homebrew-tap/README.md) — Homebrew formulas for gobootd, tme and gxemul
+- [marcusquinn/homebrew-tap](marcusquinn--homebrew-tap/README.md) — Homebrew tap for aidevops and other tools
+- [ablzh/pasabaya](ablzh--pasabaya/README.md) — A smarter, social way to find travel companions in the Philippines. No fees. No commissions. Just people helping people beat the traffic.
+- [grahamotte/homebrew-tap](grahamotte--homebrew-tap/README.md) — Homebrew casks for Graham Otte's apps
+- [scryer-media/homebrew-scryer](scryer-media--homebrew-scryer/README.md) — scryer homebrew tap
+- [odfalik/homebrew-silimon](odfalik--homebrew-silimon/README.md) — Homebrew tap for Silimon
+- [Shimizu-Technology/cornerstone-payroll](Shimizu-Technology--cornerstone-payroll/README.md) — Payroll module for Cornerstone Tax — Guam-specific payroll processing, tax withholding, and check printing
+- [Lake-of-Tears/homebrew-tap](Lake-of-Tears--homebrew-tap/README.md) — Homebrew tap for Lake of Tears projects and CLI tools
+- [midagedev/homebrew-tap](midagedev--homebrew-tap/README.md) — Homebrew tap for midagedev tools
+- [nick4man/victory](nick4man--victory/README.md) — No description supplied.
+- [ujihisa/static_literal_parser](ujihisa--static_literal_parser/README.md) — Parse a Ruby string like '{a: [1, X], b: "hello"}' without eval. You don't call eval so it's safe.
+- [carmensea/runout](carmensea--runout/README.md) — Runout: a personal listening archive (replacement repository, history rewritten for publication)
+- [threadedstack/homebrew-wmn](threadedstack--homebrew-wmn/README.md) — Homebrew tap for wmn
+- [aislopware/homebrew-tap](aislopware--homebrew-tap/README.md) — Homebrew tap for SlopDesk — low-latency remote coding for macOS (Apple silicon)
+- [trmccormick/galaxyGame](trmccormick--galaxyGame/README.md) — Java Game similar to SimEarth
+- [velikodniy/homebrew-tap](velikodniy--homebrew-tap/README.md) — My Homebrew Taps
+- [Cocoanetics/homebrew-tap](Cocoanetics--homebrew-tap/README.md) — Homebrew tap for Cocoanetics tools
+- [packetThrower/homebrew-tap](packetThrower--homebrew-tap/README.md) — Homebrew tap for packetThrower projects (PortFinder, Baudrun)
+- [merouaneamqor/morea-commerce](merouaneamqor--morea-commerce/README.md) — Morea — luxury modest sportswear commerce for Morocco (FR/EN/AR + COD)
+- [uwent/wisp3](uwent--wisp3/README.md) — Wisconsin Irrigation Scheduling Program, version 3
+- [remusa/homebrew-tap](remusa--homebrew-tap/README.md) — No description supplied.
+- [dahai80/homebrew-fusion-mlx](dahai80--homebrew-fusion-mlx/README.md) — Homebrew tap for fusion-mlx
+- [costajohnt/homebrew-tap](costajohnt--homebrew-tap/README.md) — Homebrew casks for costajohnt projects
+- [elanthia-online/Ruby4Lich5](elanthia-online--Ruby4Lich5/README.md) — Ruby 4 compatibility work for Lich5
+- [namikawa/sukesan](namikawa--sukesan/README.md) — SUKESAN - Google カレンダー連携のスケジュール管理ツール
+- [imchenway/homebrew-tap](imchenway--homebrew-tap/README.md) — Homebrew tap for Zeus
+- [blogabe/homebrew-xplanet](blogabe--homebrew-xplanet/README.md) — Xplanet and xplanetFX for Mac on personal tap due to Homebrew policy changes.  These formulae are up to date and allow for custom compile options rather than downloading Homebrew's bottle.
+- [luochang212/homebrew-tap](luochang212--homebrew-tap/README.md) — Homebrew tap for Skill Zoo and other apps
+- [SaltOverflow/SaltOverflow.github.io](SaltOverflow--SaltOverflow.github.io/README.md) — My personal blog
+- [lindoelio/homebrew-smart-agents-memory](lindoelio--homebrew-smart-agents-memory/README.md) — Homebrew tap for Smart Agents Memory — shared memory for AI agents.
+- [sdachary/sampada](sdachary--sampada/README.md) — Zero is better than negative. Self-hosted personal finance OS.
+- [bae3559/bae3559.github.io](bae3559--bae3559.github.io/README.md) — No description supplied.
+- [CameronBrooks11/cameronbrooks11.github.io](CameronBrooks11--cameronbrooks11.github.io/README.md) — No description supplied.
+- [Stillmake/homebrew-tap](Stillmake--homebrew-tap/README.md) — Homebrew casks for Stillmake apps
+- [bterm-dev/homebrew-bterm](bterm-dev--homebrew-bterm/README.md) — Homebrew tap for bterm
+- [d12frosted/homebrew-emacs-plus](d12frosted--homebrew-emacs-plus/README.md) — Emacs Plus formulae for the Homebrew package manager
+- [lthoangg/homebrew-tap](lthoangg--homebrew-tap/README.md) — No description supplied.
+- [iharshitmaurya/homebrew-tap](iharshitmaurya--homebrew-tap/README.md) — Homebrew tap for Hey Mac
+- [growsurf/growsurf-ruby](growsurf--growsurf-ruby/README.md) — The official Growsurf Ruby API Library for programmatically managing referral programs.
+- [picoruby/funicular](picoruby--funicular/README.md) — Rails plugin for full-stack SPA in Ruby
+- [284km/mere-ruby](284km--mere-ruby/README.md) — A Ruby subset interpreter written in Mere (pure Mere), byte-compatible with CRuby on its corpus.
+- [elanthia-online/dr-scripts](elanthia-online--dr-scripts/README.md) — A series of lich scripts for use with DragonRealms.
+- [Eric-Guo/coreui4-rails-starter](Eric-Guo--coreui4-rails-starter/README.md) — The CoreUI 5 Rails starter
+- [ciro-zullo/homebrew-xenia-edge](ciro-zullo--homebrew-xenia-edge/README.md) — No description supplied.
+- [panarch/homebrew-tap](panarch--homebrew-tap/README.md) — Homebrew tap for Panarch macOS apps and command-line tools
+- [armeenm/brew-api](armeenm--brew-api/README.md) — No description supplied.
+- [murilobarbosa2002/ecommerce-inertia-ruby](murilobarbosa2002--ecommerce-inertia-ruby/README.md) — No description supplied.
+- [dblock/ruby-link-checker](dblock--ruby-link-checker/README.md) — Fast ruby link checker.
+- [gondolat/gondolat.github.io](gondolat--gondolat.github.io/README.md) — Page for displaying sutta translations
+- [compasify/spree_vietqr](compasify--spree_vietqr/README.md) — VietQR cho Spree 5. Xác thực thanh toán tự động với SePay, quản lý nhiều tài khoản sepay, nhận tiền theo hạn mức
+- [swamp-club/homebrew-tap](swamp-club--homebrew-tap/README.md) — Homebrew tap for swamp — AI Native Automation CLI
+- [DYB-Development/keystone_ui-pages](DYB-Development--keystone_ui-pages/README.md) — A flow-layout page builder that draws keystone_ui elements from a versioned JSON page document
+- [ardvis/homebrew-tap](ardvis--homebrew-tap/README.md) — No description supplied.
+- [sourcerift/homebrew-tap](sourcerift--homebrew-tap/README.md) — No description supplied.
+- [grahamotte/CodeMoto](grahamotte--CodeMoto/README.md) — No description supplied.
+- [jcs/sinatree](jcs--sinatree/README.md) — A skeleton web application configured to use Sinatra and ActiveRecord
+- [context-dot-dev/context-ruby-sdk](context-dot-dev--context-ruby-sdk/README.md) — Context.dev Ruby SDK: scrape any URL to LLM-ready markdown, crawl sites, search the web and extract structured JSON with one API key.
+- [jankeesvw/helenaveenvantoen.nl](jankeesvw--helenaveenvantoen.nl/README.md) — No description supplied.
+- [Asymptote-Labs/homebrew-tap](Asymptote-Labs--homebrew-tap/README.md) — No description supplied.
+- [ruby-gtk-project/Boatswain-rb](ruby-gtk-project--Boatswain-rb/README.md) — Ruby GTK4 port of Boatswain. Upstream: https://gitlab.gnome.org/World/boatswain
+- [crossoverJie/homebrew-skilldeck](crossoverJie--homebrew-skilldeck/README.md) — No description supplied.
+- [we-promise/sure](we-promise--sure/README.md) — The personal finance app for everyone (by everyone)
+- [Strpandit/Salespoints](Strpandit--Salespoints/README.md) — Hostinger ready salespoints BE code
+- [AkinoKaede/homebrew-kuchikamizake](AkinoKaede--homebrew-kuchikamizake/README.md) — 🍺 A flavored Homebrew tap.
+- [Canonry/homebrew-canonry](Canonry--homebrew-canonry/README.md) — Homebrew tap for canonry — agent-first open-source AEO operating platform
+- [Ayshelled/webtech-assignments](Ayshelled--webtech-assignments/README.md) — No description supplied.
+- [sglavoie/homebrew-tap](sglavoie--homebrew-tap/README.md) — Homebrew casks
+- [puppetlabs/puppet-module-compat-harness](puppetlabs--puppet-module-compat-harness/README.md) — Compatibility testing harness for community Puppet modules against Puppet Core releases.
+- [The-AI-Alliance/homebrew-semiont](The-AI-Alliance--homebrew-semiont/README.md) — Homebrew tap for Semiont
+- [DYB-Development/keystone_ui](DYB-Development--keystone_ui/README.md) — No description supplied.
+- [GUI/sahc-monitoring-reports](GUI--sahc-monitoring-reports/README.md) — No description supplied.
+- [dblock/ruby-gem-release](dblock--ruby-gem-release/README.md) — Reusable GitHub Actions workflow and Ruby Rake tasks for gem releases
+- [KantemirBitokov/homebrew-tap](KantemirBitokov--homebrew-tap/README.md) — No description supplied.
+- [heckslabs/hecks](heckslabs--hecks/README.md) — No description supplied.
+- [tanghong123/homebrew-tap](tanghong123--homebrew-tap/README.md) — Homebrew tap for tanghong123's tools
+- [levyvix/homebrew-ani-tupi](levyvix--homebrew-ani-tupi/README.md) — Homebrew tap for ani-tupi
+- [TakatoHano/hayaoki](TakatoHano--hayaoki/README.md) — Find out where your Rails app spends its boot time, and what to change
+- [ar4mirez/spinel](ar4mirez--spinel/README.md) — A Ruby engine and toolchain built from scratch, in one binary.
+- [raisedadead/Brewfile](raisedadead--Brewfile/README.md) — apps, tools and utilities that I use on my macOS machines
+- [fcjr/homebrew-fcjr](fcjr--homebrew-fcjr/README.md) — No description supplied.
+- [leeguooooo/homebrew-tap](leeguooooo--homebrew-tap/README.md) — Homebrew tap for Thermo
+- [kglw-dot-net/tapes](kglw-dot-net--tapes/README.md) — No description supplied.
+- [ublue-os/homebrew-experimental-tap](ublue-os--homebrew-experimental-tap/README.md) — Experimental tap for Homebrew
+- [vtmocanu/homebrew-tap](vtmocanu--homebrew-tap/README.md) — Homebrew tap for @vtmocanu's tools
+- [selzerdevelopment/homebrew-tap](selzerdevelopment--homebrew-tap/README.md) — Homebrew tap for the hoplogs CLI
+- [Martin-Business-Consultants/runwell-brain](Martin-Business-Consultants--runwell-brain/README.md) — No description supplied.
+- [matt-3/error_signal](matt-3--error_signal/README.md) — No description supplied.
+- [kaki-org/jwt-api](kaki-org--jwt-api/README.md) — RailsAPIとNuxt.jsで作るJWT
+- [specht/workspace-files](specht--workspace-files/README.md) — No description supplied.
+- [lakeraven/rpms-rpc](lakeraven--rpms-rpc/README.md) — Pure Ruby RPC client for VistA/RPMS — CIA/XWB and BMX protocols
+- [mrothroc/homebrew-tap](mrothroc--homebrew-tap/README.md) — Homebrew tap for mixlab
+- [xiufengsun/homebrew-tokentracker](xiufengsun--homebrew-tokentracker/README.md) — Homebrew tap for TokenTracker — install CLI and macOS menu bar app via brew
+- [mslinn/live_set](mslinn--live_set/README.md) — Reporting and conversion tools for Ableton Live 8 - 12 and Push 3 Standalone
+- [DanWlker/homebrew-spoon](DanWlker--homebrew-spoon/README.md) — No description supplied.
+- [fluent/fluent-plugin-s3](fluent--fluent-plugin-s3/README.md) — Amazon S3 input and output plugin for Fluentd
+- [amoeba/treestats.net](amoeba--treestats.net/README.md) — Player tracking for Asheron's Call
+- [orchestratiahq/homebrew-tap](orchestratiahq--homebrew-tap/README.md) — No description supplied.
+- [chromebrew/chromebrew](chromebrew--chromebrew/README.md) — Package manager for Chrome OS
+- [sediment5193/homelab-site](sediment5193--homelab-site/README.md) — No description supplied.
+- [deadsimple-xyz/homebrew-tap](deadsimple-xyz--homebrew-tap/README.md) — No description supplied.
+- [patrickclery/ruly](patrickclery--ruly/README.md) — CLI tool for managing AI assistant rules and configurations
+- [elanthia-online/lich-5](elanthia-online--lich-5/README.md) — A GTK3 and modernized version of Lich 4
+- [pittner/homebrew-voxflow](pittner--homebrew-voxflow/README.md) — Homebrew tap: brew install --cask pittner/voxflow/voxflow-pro (VoxFlow Pro, free push-to-talk dictation for macOS)
+- [regulaforensics/podspecs](regulaforensics--podspecs/README.md) — Regula CocoaPods podspecs
+- [aglose/homebrew-apksim](aglose--homebrew-apksim/README.md) — Homebrew tap for apksim: brew tap aglose/apksim && brew install apksim
+- [thrashr888/homebrew-tap](thrashr888--homebrew-tap/README.md) — Homebrew tap for all thrashr888 projects
+- [agentcollision/homebrew-tap](agentcollision--homebrew-tap/README.md) — Homebrew tap for AgentCollision — coordination daemon for parallel AI coding agents
+- [seven1m/bible_ref](seven1m--bible_ref/README.md) — Parser for bible passage/ranges
+- [my20130401-collab/task-breakdown](my20130401-collab--task-breakdown/README.md) — No description supplied.
+- [ofpisnotdead-com/ofpr.info](ofpisnotdead-com--ofpr.info/README.md) — No description supplied.
+- [DetachHead/homebrew-tap](DetachHead--homebrew-tap/README.md) — No description supplied.
+- [gbasin/homebrew-tap](gbasin--homebrew-tap/README.md) — Homebrew formulae for gbasin projects
+- [y-ken/fluent-plugin-mysql-replicator](y-ken--fluent-plugin-mysql-replicator/README.md) — Fluentd input plugin to track insert/update/delete event from MySQL databases.
+- [any-container/foundry](any-container--foundry/README.md) — No description supplied.
+- [DYB-Development/keystone_ui-app](DYB-Development--keystone_ui-app/README.md) — Platform-aware app shell for keystone_ui apps: desktop, phone browser and Hotwire Native
+- [entropie/unifi-timelapse](entropie--unifi-timelapse/README.md) — collect unifi protect videos from cloudkey/controller saves them locally sped up
+- [axelknock/brew-api](axelknock--brew-api/README.md) — No description supplied.
+- [djdefi/hockey_bet](djdefi--hockey_bet/README.md) — No description supplied.
+- [d3mlabs/ai-flow](d3mlabs--ai-flow/README.md) — No description supplied.
+- [colony-2/homebrew-tap](colony-2--homebrew-tap/README.md) — No description supplied.
+- [janalis/homebrew-tap](janalis--homebrew-tap/README.md) — Homebrew tap for janalis tools
+- [intermittentnrg/intermittent-taipower-sns-sqs](intermittentnrg--intermittent-taipower-sns-sqs/README.md) — No description supplied.
+- [elanthia-online/scripts](elanthia-online--scripts/README.md) — shared collaborative lich scripts
+- [katsyoshi/blog](katsyoshi--blog/README.md) — No description supplied.
+- [nicollinoxx/FitPlan](nicollinoxx--FitPlan/README.md) — Modular web app for personalized workout and diet plans. Built with Ruby on Rails, featuring health metrics, background jobs, caching, and Hotwire-powered UI.
+- [bottrall/skyward](bottrall--skyward/README.md) — Typed Ruby web apps: an endpoint is a method, a row is a value, and RBS is the contract.
+- [beebeeb-io/homebrew-tap](beebeeb-io--homebrew-tap/README.md) — No description supplied.
+- [matthimrod/.ref](matthimrod--.ref/README.md) — Reference Files
+- [geoffjay/homebrew-tap](geoffjay--homebrew-tap/README.md) — No description supplied.
+- [MathCouple/MathCouple](MathCouple--MathCouple/README.md) — No description supplied.
+- [romalopes/wine_words_api](romalopes--wine_words_api/README.md) — No description supplied.
+- [Incise-App/homebrew-tap](Incise-App--homebrew-tap/README.md) — Incise: A precise text editor, native to the Mac
+- [ychani/homebrew-tap](ychani--homebrew-tap/README.md) — Homebrew casks for NarNar Labs apps
+- [Epoch-ML/homebrew-tap](Epoch-ML--homebrew-tap/README.md) — Official Homebrew distribution for verified Zerg tools
+- [Facets-cloud/homebrew-tap](Facets-cloud--homebrew-tap/README.md) — Homebrew tap for Facets Cloud CLIs (praxis, raptor, …)
+- [matrix-axon/homebrew-tap](matrix-axon--homebrew-tap/README.md) — Homebrew taps for Matrix-Axon
+- [kunchenguid/homebrew-tap](kunchenguid--homebrew-tap/README.md) — No description supplied.
+- [infinitary-labs/homebrew-tap](infinitary-labs--homebrew-tap/README.md) — Homebrew tap for Infinitary
+- [Raizo-TCS/phronomy-examples](Raizo-TCS--phronomy-examples/README.md) — Phronomy framework usage examples (Chain, Agent, Graph, Crew, Guardrails, Tracing, MCP, Rails)
+- [farena-ai/homebrew-tap](farena-ai--homebrew-tap/README.md) — Homebrew tap for Sara, the self-hosted AI companion and coding partner: brew install --cask farena-ai/tap/sara
+- [xavi-group/homebrew-tap](xavi-group--homebrew-tap/README.md) — Homebrew formulae for xavi group tools
+- [udzura/wardite](udzura--wardite/README.md) — A pure-ruby webassembly runtime.
+- [Tai-Kimura/JsonUIDocument](Tai-Kimura--JsonUIDocument/README.md) — No description supplied.
+- [sanford/homebrew-tap](sanford--homebrew-tap/README.md) — No description supplied.
+- [ossuminc/homebrew-tap](ossuminc--homebrew-tap/README.md) — A HomeBrew Tap for Ossuminc things
+- [ghotriw/homebrew-tap](ghotriw--homebrew-tap/README.md) — No description supplied.
+- [change-fabric/change-fabric](change-fabric--change-fabric/README.md) — ai agent skills
+- [VitaliiLazebnyi/minimal_docker_nginx](VitaliiLazebnyi--minimal_docker_nginx/README.md) — No description supplied.
+- [yatfa-ai/specguard-ruby](yatfa-ai--specguard-ruby/README.md) — No description supplied.
+- [gitfool/homebrew-vpinball](gitfool--homebrew-vpinball/README.md) — A homebrew tap for virtual pinball.
+- [AustinLMayes/RubyCommon](AustinLMayes--RubyCommon/README.md) — A collection of common Ruby methods and classes that I use in my projects
+- [lars-hagen/homebrew-dotfiles](lars-hagen--homebrew-dotfiles/README.md) — No description supplied.
+- [historyforge/historyforge](historyforge--historyforge/README.md) — The HistoryForge Rails application. For git history pre-July-2021, see the historyforge-old repository.
+- [payfacto/homebrew-tap](payfacto--homebrew-tap/README.md) — Homebrew formulae that allows installation of PayFacto tools through the Homebrew package manager.
+- [tamatebako/tebako-runtime-ruby](tamatebako--tebako-runtime-ruby/README.md) — No description supplied.
+- [tamatebako/tebako-runtime-python](tamatebako--tebako-runtime-python/README.md) — No description supplied.
+- [tamatebako/tebako-runtime-bun](tamatebako--tebako-runtime-bun/README.md) — Tebako runtime factory: Bun as a co-mountable tebako runtime — per-platform interpreter + env image
+- [tamatebako/tebako-runtime-node](tamatebako--tebako-runtime-node/README.md) — Tebako runtime factory: Node.js (LTS) as a co-mountable tebako runtime — per-platform interpreter + env image
+- [tamatebako/tebako-runtime-truffleruby](tamatebako--tebako-runtime-truffleruby/README.md) — TruffleRuby tebako runtime feedstock (native + jvm modes; spec 28 implementation axis, spec 33 runtime-on-runtime)
+- [agentica-lang/agentica-campfire](agentica-lang--agentica-campfire/README.md) — Group chat in Agentica: a port of 37signals' ONCE Campfire on Bond, EAG templates and agentica-db
+- [parterburn/dabble.me](parterburn--dabble.me/README.md) — A private journal over email service.
+- [tamatebako/tebako-runtime-jruby](tamatebako--tebako-runtime-jruby/README.md) — JRuby runtime feedstock (tebako spec 33 on_runtime; universal dist, composed on the java owner)
+- [tamatebako/tebako-runtime-openjdk](tamatebako--tebako-runtime-openjdk/README.md) — OpenJDK (Temurin JRE) toolkit payload feedstock — the hermetic java for metanorma's jing/mn2pdf chain
+- [sunlover7/homebrew-agentlinkops](sunlover7--homebrew-agentlinkops/README.md) — Homebrew tap for the AgentLinkOps CLI: brew install sunlover7/agentlinkops/agentlinkops
+- [chaop2026/docpack](chaop2026--docpack/README.md) — No description supplied.
+- [momentohq/homebrew-tap](momentohq--homebrew-tap/README.md) — Momento Homebrew Formulae
+- [yujiteshima/mruby-gpu-kernel](yujiteshima--mruby-gpu-kernel/README.md) — Turn a Ruby block into a Vulkan compute shader — an mrbgem add-on for mruby-gpu-narray. na.map { |x| x * 2 + sin(x) } runs on the GPU.
+- [MushroomObserver/mushroom-observer](MushroomObserver--mushroom-observer/README.md) — A website for sharing observations of mushrooms.
+- [dzimplei/dzimplei](dzimplei--dzimplei/README.md) — Workspaces, mind map and Claude Code sessions in one app — releases and issue tracker
+- [vblank-rb/vblank](vblank-rb--vblank/README.md) — Write 2D retro games in Ruby
+- [wumphlett/COMP-3220](wumphlett--COMP-3220/README.md) — Auburn COMP-3220 Programs
+- [yegor256/judges](yegor256--judges/README.md) — Executor of Ruby scripts that update a Factbase both adding new and modifying facts inside it
+- [mabutast/pqc_rails](mabutast--pqc_rails/README.md) — Post-quantum cryptography for Rails — data encrypted today can't be decrypted by tomorrow's quantum computers.
+- [yaojingang/yaojingang.github.io](yaojingang--yaojingang.github.io/README.md) — Personal blog site
+- [heyjosephme/keio-tsushin](heyjosephme--keio-tsushin/README.md) — Course management system for Keio University distance learning program
+- [michalsarna/homebrew-tap](michalsarna--homebrew-tap/README.md) — No description supplied.
+- [tylerklose/hitch-rails](tylerklose--hitch-rails/README.md) — Couple your Rails app to anything that speaks MCP — OAuth 2.1 + PKCE authorization server for Rails-hosted MCP servers
+- [afrase/homebrew-tap](afrase--homebrew-tap/README.md) — No description supplied.
+- [umindhub/homebrew-tap](umindhub--homebrew-tap/README.md) — Homebrew tap for YouMindHub apps and tools: AppPad (Launchpad replacement), YouMindHub (local-first todo manager) and makedmg (CLI for styled DMGs).
+- [maelys-dev/homebrew-tap](maelys-dev--homebrew-tap/README.md) — Homebrew tap for Maelys tools
+- [romalopes/beachvolleyballhub_api](romalopes--beachvolleyballhub_api/README.md) — No description supplied.
+- [shrwnsan/homebrew-tap](shrwnsan--homebrew-tap/README.md) — Homebrew tap for shrwnsan's tools 🍺
+- [Yuurisan-N1/Vapi-Network](Yuurisan-N1--Vapi-Network/README.md) — Automated Vapi Network bot featuring EVM wallet registration, SIWE authentication, on-chain identity minting, daily quest claims, multi-account management, and proxy rotation.
+- [Hprograms/game_backlog](Hprograms--game_backlog/README.md) — No description supplied.
+- [shafidgl/homebrew-tap](shafidgl--homebrew-tap/README.md) — Homebrew tap for shafidgl's macOS apps
+- [aflock-ai/homebrew-tap](aflock-ai--homebrew-tap/README.md) — Homebrew tap for cilock and jctl — brew install aflock-ai/tap/cilock
+- [Squirreljetpack/homebrew-tap](Squirreljetpack--homebrew-tap/README.md) — homebrew releases
+- [dm1try/samagotchi](dm1try--samagotchi/README.md) — opinionated human-in-the-loop agent harness
+- [acsandmann/homebrew-tap](acsandmann--homebrew-tap/README.md) — No description supplied.
+- [guestitab/guesty-client](guestitab--guesty-client/README.md) — No description supplied.
+- [niv-md/homebrew-tap](niv-md--homebrew-tap/README.md) — No description supplied.
+- [Grappeggia/homebrew-carbonic](Grappeggia--homebrew-carbonic/README.md) — Carbonic macOS prototype releases and Homebrew cask
+- [7xuanlu/homebrew-tap](7xuanlu--homebrew-tap/README.md) — Homebrew tap for Origin tools
+- [VitaliiLazebnyi/standalone_migrations](VitaliiLazebnyi--standalone_migrations/README.md) — proof of concept repo
+- [VitaliiLazebnyi/simplecov-ai](VitaliiLazebnyi--simplecov-ai/README.md) — Generates highly concise, deterministic Markdown coverage digests tailored for LLMs and autonomous agents by matching coverage deficits to their AST semantic boundaries rather than line numbers.
+- [Ranjeet2063/homebrew-tap](Ranjeet2063--homebrew-tap/README.md) — Official Homebrew Tap for Ranjeet's High-Assurance Rust & Security CLI Tools (AetherGuard, SentinelGuard, InvariantForge)
+- [VitaliiLazebnyi/leechtop-downloader](VitaliiLazebnyi--leechtop-downloader/README.md) — No description supplied.
+- [ut0s/homebrew-tckt](ut0s--homebrew-tckt/README.md) — No description supplied.
+- [blackpaw-studio/homebrew-tap](blackpaw-studio--homebrew-tap/README.md) — No description supplied.
+- [actions-marketplace-validations/jeantessier_test-summary-action](actions-marketplace-validations--jeantessier_test-summary-action/README.md) — No description supplied.
+- [conradbeach/obsidian_reminders](conradbeach--obsidian_reminders/README.md) — No description supplied.
+- [rociiu/homebrew-tap](rociiu--homebrew-tap/README.md) — No description supplied.
+- [marrusl/homebrew-inspectah](marrusl--homebrew-inspectah/README.md) — brew tap for inspectah
+- [y-yagi/edgeway](y-yagi--edgeway/README.md) — No description supplied.
+- [solectrus/solectrus](solectrus--solectrus/README.md) — Self-hosted photovoltaic dashboard for monitoring solar production, consumption, battery usage, grid exchange, and financial performance.
+- [MetanoicArmor/homebrew-i2pchat](MetanoicArmor--homebrew-i2pchat/README.md) — Homebrew tap: I2PChat GUI and TUI casks
+- [roarbrowser/homebrew-tap](roarbrowser--homebrew-tap/README.md) — Homebrew tap for Roar
+- [Love-Rox/homebrew-tap](Love-Rox--homebrew-tap/README.md) — Homebrew tap for Love-Rox apps
+- [trvon/homebrew-yams](trvon--homebrew-yams/README.md) — No description supplied.
+- [ph-composer/ph-composer-skp](ph-composer--ph-composer-skp/README.md) — PH-Composer for SketchUp: open-source Passive House authoring for Phius projects, with HBJSON export.
+- [cucumber/aruba](cucumber--aruba/README.md) — Test command-line applications with Cucumber-Ruby, RSpec or Minitest.
+- [solectrus/helios](solectrus--helios/README.md) — HELIOS — knows your SOLECTRUS configuration better than you do
+- [studiome/altocumulus](studiome--altocumulus/README.md) — Clinical ledger for patients, diagnoses, surgeries and hospitalizations, with elective surgery slot tracking and a full audit log. Rails 8.1, SQLite, Hotwire, no Node build.
+- [J-HernandezInzunza/homebrew-tap](J-HernandezInzunza--homebrew-tap/README.md) — Homebrew tap for J-HernandezInzunza's tools
+- [distronode-corporation/homebrew-tap](distronode-corporation--homebrew-tap/README.md) — Homebrew tap for Distronode's macOS apps: District AI for Mac and bridgewatch.
+- [AnjanJ/rails_error_dashboard](AnjanJ--rails_error_dashboard/README.md) — Self-hosted error tracking for Rails - zero recurring cost, full data ownership.
+- [brainchimps/homebrew-tap](brainchimps--homebrew-tap/README.md) — Homebrew tap for the ghostdock CLI: brew install brainchimps/tap/ghostdock
+- [elio-fleet/elio](elio-fleet--elio/README.md) — Self-hosted fleet manager for Linux servers: health, inventory, vulnerabilities, Docker, SSH keys. Agentless, read-only, over SSH.
+- [MihrabHQ/homebrew-tap](MihrabHQ--homebrew-tap/README.md) — Homebrew tap for Mihrab on macOS — brew install --cask mihrabhq/tap/mihrab
+- [clickety-clacks/homebrew-tap](clickety-clacks--homebrew-tap/README.md) — Homebrew tap for Clickety Clacks tools
+- [huginn/huginn](huginn--huginn/README.md) — Create agents that monitor and act on your behalf.  Your agents are standing by!
+- [Outlier-host/homebrew-tap](Outlier-host--homebrew-tap/README.md) — Homebrew tap for Outlier, the Mac app that runs AI models on your own computer
+- [captive-studio/renovate-config](captive-studio--renovate-config/README.md) — Renovate bot config
+- [cucumber/multi_test](cucumber--multi_test/README.md) — Help Cucumber-Ruby pick a good default assertion framework
+- [haiggoh/homebrew-tap](haiggoh--homebrew-tap/README.md) — 🚰 Homebrew formulae for haiggoh developer tools
+- [ietf-tools/relaton-data-ids](ietf-tools--relaton-data-ids/README.md) — Bibliographic data information for Internet-Drafts in Relaton format
+- [Slinet6056/homebrew-tap](Slinet6056--homebrew-tap/README.md) — No description supplied.
+- [snails-rb/snails](snails-rb--snails/README.md) — A framework for building web apps that compile to a single native binary — an API-only, Rails-like runtime for Spinel.
+- [kexin94yyds/homebrew-tap](kexin94yyds--homebrew-tap/README.md) — Homebrew tap for relearn
+- [greasyfork-org/greasyfork](greasyfork-org--greasyfork/README.md) — An online repository of user scripts.
+- [galtzo-floss/galtzo.com](galtzo-floss--galtzo.com/README.md) — All my open source projects in one place
+- [wasmCloud/homebrew-wasmcloud](wasmCloud--homebrew-wasmcloud/README.md) — Homebrew tap for wasmCloud
+- [whiteheap/homebrew-tap](whiteheap--homebrew-tap/README.md) — Homebrew formulas for Whiteheap tools
+- [devmuaz/homebrew-tap](devmuaz--homebrew-tap/README.md) — No description supplied.
+- [otsge/homebrew-keg](otsge--homebrew-keg/README.md) — 🍻 A CLI workflow for the administration of macOS applications distributed as binaries
+- [bikeindex/bike_index](bikeindex--bike_index/README.md) — All the code for Bike Index, because we love you
+- [tk0miya/rbs_active_hash](tk0miya--rbs_active_hash/README.md) — No description supplied.
+- [norali84g-wq/GastoClaroTFI](norali84g-wq--GastoClaroTFI/README.md) — No description supplied.
+- [3106ksk/learning-quest](3106ksk--learning-quest/README.md) — 卒業制作用
+- [Stephen-Collins-tech/homebrew-tap](Stephen-Collins-tech--homebrew-tap/README.md) — Homebrew tap for hotspots
+- [jackh54/homebrew-tap](jackh54--homebrew-tap/README.md) — Homebrew tap for mcinit
+- [osakka/homebrew-hibr](osakka--homebrew-hibr/README.md) — No description supplied.
+- [rigortype/rigor](rigortype--rigor/README.md) — Inference-first static analysis for Ruby
+- [snowgh0st/ai-crm-engine](snowgh0st--ai-crm-engine/README.md) — AI-Powered Enterprise Knowledge Workflow & CRM Enrichment Engine
+- [arenberg-engineering/homebrew-tap](arenberg-engineering--homebrew-tap/README.md) — Homebrew tap for Arenberg Engineering software
+- [attilagyorffy/homebrew-shuhari](attilagyorffy--homebrew-shuhari/README.md) — Homebrew tap for shuhari
+- [mcpguarddotonline/homebrew-tap](mcpguarddotonline--homebrew-tap/README.md) — No description supplied.
+- [itayayuichiro/ff14_xml](itayayuichiro--ff14_xml/README.md) — No description supplied.
+- [dekopon-agents/homebrew-tap](dekopon-agents--homebrew-tap/README.md) — Homebrew tap for Dekopon: brew tap dekopon-agents/tap && brew install dekopon
+- [driverforge/homebrew-tap](driverforge--homebrew-tap/README.md) — No description supplied.
+- [d3mlabs/homebrew-d3mlabs](d3mlabs--homebrew-d3mlabs/README.md) — Official Homebrew tap for D3M Labs.
+- [d3mlabs/dev](d3mlabs--dev/README.md) — Developer tool used internally @ D3M Labs.
+- [ottto-ai/homebrew-tap](ottto-ai--homebrew-tap/README.md) — Homebrew tap for Ottto CLI and local service
+- [JoaoAssRego/MyWedding](JoaoAssRego--MyWedding/README.md) — This project aims to help my fiancée and me organize our wedding. It will involve handling tasks such as paying bills, managing future payments, and dealing with vendors.
+- [kazuph/homebrew-tap](kazuph--homebrew-tap/README.md) — Homebrew tap for kazuph projects
+- [getpapersh/homebrew-tap](getpapersh--homebrew-tap/README.md) — Homebrew casks for Paper (getpaper.sh)
+- [diillson/homebrew-chatcli](diillson--homebrew-chatcli/README.md) — Homebrew tap for ChatCLI — CLI for interacting with multiple LLM providers
+- [burningmantech/ranger-clubhouse-rails](burningmantech--ranger-clubhouse-rails/README.md) — Ranger Secret Clubhouse — 3rd gen
+- [BoringInfraCo/homebrew-campfire](BoringInfraCo--homebrew-campfire/README.md) — Homebrew tap for Campfire
+- [e-c-hansen/homebrew-tap](e-c-hansen--homebrew-tap/README.md) — No description supplied.
+- [23made/homebrew-tap](23made--homebrew-tap/README.md) — Homebrew formulae for 23made's tools, including the 23artifacts command line (23a).
+- [yatfa-ai/specguard](yatfa-ai--specguard/README.md) — No description supplied.
+- [RaiderHQ/ruby_raider](RaiderHQ--ruby_raider/README.md) — This is a gem to make setup and start of UI automation projects easier
+- [kumabook/homebrew-reattach](kumabook--homebrew-reattach/README.md) — No description supplied.
+- [Miguelosaurus/homebrew-tap](Miguelosaurus--homebrew-tap/README.md) — Homebrew formulae for Swift Sim
+- [ataylor-us/laptop-infra](ataylor-us--laptop-infra/README.md) — Playbook for my configuring my laptop
+- [olliwa-ifi/escalier-axe-oblique](olliwa-ifi--escalier-axe-oblique/README.md) — Plugin Escalier axe oblique et trémie rectangulaire
+- [rubysec/ruby-advisory-db](rubysec--ruby-advisory-db/README.md) — A database of vulnerable Ruby Gems
+- [getan/homebrew-tap](getan--homebrew-tap/README.md) — Homebrew tap for golder
+- [bhumit070/homebrew-tap](bhumit070--homebrew-tap/README.md) — Homebrew tap for Tabula
+- [josh-andrews-dev/homebrew-tap](josh-andrews-dev--homebrew-tap/README.md) — Homebrew formulae for Annotary
+- [krishnachaitanyaprod/shopline](krishnachaitanyaprod--shopline/README.md) — No description supplied.
+- [doorkeeper-gem/doorkeeper](doorkeeper-gem--doorkeeper/README.md) — Doorkeeper is an OAuth 2 provider for Ruby on Rails / Grape.
+- [SteveBenner/rEach](SteveBenner--rEach/README.md) — AI driven learning micro-platform
+- [hostilecity/fleet-cmdb](hostilecity--fleet-cmdb/README.md) — No description supplied.
+- [okuramasafumi/neco](okuramasafumi--neco/README.md) — neco is a NEo COmmand library
+- [equipe-labs/homebrew-tap](equipe-labs--homebrew-tap/README.md) — Homebrew tap for equipe
+- [mokevnin/homebrew-tap](mokevnin--homebrew-tap/README.md) — Homebrew formulae of mokevnin's projects
+- [ingen084/homebrew-tap](ingen084--homebrew-tap/README.md) — No description supplied.
+- [doods-maker/ramon-hub](doods-maker--ramon-hub/README.md) — No description supplied.
+- [PedroKlein/homebrew-pipoca](PedroKlein--homebrew-pipoca/README.md) — No description supplied.
+- [lache-sys/homebrew-tap](lache-sys--homebrew-tap/README.md) — No description supplied.
+- [kilde-team/homebrew-kilde](kilde-team--homebrew-kilde/README.md) — Homebrew tap for kilde (macOS screen + system-audio recorder CLI)
+- [carlosframework/homebrew-tap](carlosframework--homebrew-tap/README.md) — Homebrew formulae for carlos and rastrillo — brew tap carlosframework/tap
+- [JhonataFerreira95/documention_Ruby](JhonataFerreira95--documention_Ruby/README.md) — Documentando o Ruby
+- [vothanhdat/homebrew-tap](vothanhdat--homebrew-tap/README.md) — Homebrew tap for MacMon Indicator (Apple Silicon menu bar monitor)
+- [theBGuy/homebrew-tap](theBGuy--homebrew-tap/README.md) — Personal Homebrew tap publishing the GitDesktop cask for macOS — an AI-native, keyboard-first Git desktop client — installable via brew install --cask thebguy/tap/gitdesktop, tappable, or pinned in a Brewfile bundle; marked auto_updates for signed in-app updates and bumped automatically by the release pipeline
+- [asip/easel-back](asip--easel-back/README.md) — Easel - image viewer
+- [asip/easel-legacy](asip--easel-legacy/README.md) — Easel - image viewer (legacy)
+- [henrique-cabral-dev/homebrew-forkly](henrique-cabral-dev--homebrew-forkly/README.md) — Homebrew tap do Forkly
+- [httpsagent/homebrew-tap](httpsagent--homebrew-tap/README.md) — Homebrew tap for HttpsAgent (macOS and Linux)
+- [bitty-terminal/homebrew-tap](bitty-terminal--homebrew-tap/README.md) — Homebrew tap for Bitty terminal
+- [echecnoir11/homebrew-tap](echecnoir11--homebrew-tap/README.md) — Homebrew tap for @@ennuienoir
+- [Zeus-Mode/homebrew-tap](Zeus-Mode--homebrew-tap/README.md) — Homebrew tap for Zeus: brew install zeus-mode/tap/zeus
+- [ckesselh/homebrew-tap](ckesselh--homebrew-tap/README.md) — Homebrew casks: Günther die Gurke 2
+- [randyellis-wealthberry/homebrew-tap](randyellis-wealthberry--homebrew-tap/README.md) — Homebrew formulae for Wealthberry Labs tools
+- [zm2231/homebrew-tap](zm2231--homebrew-tap/README.md) — Homebrew tap for zm2231 tools
+- [sugiwe/discord-thread-discovery](sugiwe--discord-thread-discovery/README.md) — A Discord bot that randomly discovers and highlights forum threads to boost engagement
+- [vertigo-prime/devise_scim](vertigo-prime--devise_scim/README.md) — Mount a SCIM 2.0 provider into any Rails app using Devise. Supports single- and multi-tenant deployments, bearer-token and OAuth 2.0 client-credentials auth, and a pluggable ScimAdapter.
+- [urieljuliatti85/eloshop](urieljuliatti85--eloshop/README.md) — E-commerce e Marketplace dedicado ao público que fabrica artesanato e produtos feitos à mão.
+- [VitaliiLazebnyi/http_loader](VitaliiLazebnyi--http_loader/README.md) — HttpLoader is a powerful, high-concurrency performance and load testing console tool.
+- [Arcadi4/homebrew-tap](Arcadi4--homebrew-tap/README.md) — My personal Homebrew tap, mostly projects I am using or interested in.
+- [Realm9758/homebrew-floodtide](Realm9758--homebrew-floodtide/README.md) — Homebrew tap for Floodtide, the Mac app updater. brew install --cask realm9758/floodtide/floodtide
+- [ericrall/homebrew-rubarb](ericrall--homebrew-rubarb/README.md) — Homebrew tap for rubarb.bar
+- [chaadow/statesman-multi_state](chaadow--statesman-multi_state/README.md) — Rails/Statesman plugin that handle multiple state machines on the same model through `has_one_state_machine` ActiveRecord macro
+- [totoshko88/homebrew-rustconn](totoshko88--homebrew-rustconn/README.md) — No description supplied.
+- [minaminakamura54b/solarsystem](minaminakamura54b--solarsystem/README.md) — No description supplied.
+- [Tripstack-Corp/homebrew-tap](Tripstack-Corp--homebrew-tap/README.md) — Homebrew tap for spyc — a keyboard-driven, MCP-native terminal file commander
+- [paddo-tech/homebrew-tap](paddo-tech--homebrew-tap/README.md) — No description supplied.
+- [Cyber-Courses/homebrew-tap](Cyber-Courses--homebrew-tap/README.md) — Homebrew tap for Cyber CTF
+- [keploy/homebrew-tap](keploy--homebrew-tap/README.md) — No description supplied.
+- [harkin/mc-packs](harkin--mc-packs/README.md) — No description supplied.
+- [investaem3-gif/treker-bot](investaem3-gif--treker-bot/README.md) — No description supplied.
+- [ndtimofeev/redmine-custom-decrement-field](ndtimofeev--redmine-custom-decrement-field/README.md) — No description supplied.
+- [henderson-tech/homebrew-tap](henderson-tech--homebrew-tap/README.md) — Homebrew tap for FixIt Technologies engineering tools.
+- [Ringo2122/torgi-bot](Ringo2122--torgi-bot/README.md) — Сторож торгов: новые лоты недвижимости и транспорта в Telegram
+- [librorum/homebrew-darichat](librorum--homebrew-darichat/README.md) — 다리챗 데스크톱 앱과 dari CLI Homebrew 탭
+- [nauman/homebrew-tap](nauman--homebrew-tap/README.md) — Homebrew tap for nauman's CLIs (kuickr, …)
+- [mobrava/homebrew-tap](mobrava--homebrew-tap/README.md) — No description supplied.
+- [neverprepared/homebrew-tap](neverprepared--homebrew-tap/README.md) — Homebrew tap for neverprepared tools
+- [gleert/homebrew-agentdb](gleert--homebrew-agentdb/README.md) — No description supplied.
+- [mkmuniz/homebrew-schliffe](mkmuniz--homebrew-schliffe/README.md) — Homebrew tap for Schliffe
+- [herald-email/homebrew-herald](herald-email--homebrew-herald/README.md) — Homebrew tap for Herald
+- [zacesshq/homebrew-tap](zacesshq--homebrew-tap/README.md) — Homebrew formulae for Zacess Profile, Scenes and Games.
+- [dpep/accord](dpep--accord/README.md) — API contracts for Ruby
+- [r-uby-dev/llm](r-uby-dev--llm/README.md) — An agentic runtime
+- [ReentaKim/homebrew-tap](ReentaKim--homebrew-tap/README.md) — Homebrew tap for ReentaKim apps
+- [metril/homebrew-intel-bottles](metril--homebrew-intel-bottles/README.md) — No description supplied.
+- [redmica/redmica](redmica--redmica/README.md) — The future Redmine you can get today — yet another distribution of a flexible project management software named Redmine
+- [akonwi/homebrew-tap](akonwi--homebrew-tap/README.md) — distributing my stuff in homebrew
+- [KK-arina/runteq_graduation_project](KK-arina--runteq_graduation_project/README.md) — No description supplied.
+- [streamplace/homebrew-streamplace](streamplace--homebrew-streamplace/README.md) — Streamplace published to homebrew
+- [mhero/freight-challenge](mhero--freight-challenge/README.md) — Simple freight service
+- [getagentseal/homebrew-codeburn](getagentseal--homebrew-codeburn/README.md) — Homebrew tap for codeburn - AI coding cost tracker
+- [audichuang/homebrew-tap](audichuang--homebrew-tap/README.md) — Homebrew tap for audichuang's applications
+- [Stringsaeed/homebrew-tap](Stringsaeed--homebrew-tap/README.md) — Homebrew casks for Kudzu and friends
+- [rosieguillen/the-little-letter](rosieguillen--the-little-letter/README.md) — No description supplied.
+- [ryanravn/homebrew-ryra](ryanravn--homebrew-ryra/README.md) — Homebrew formula for the proprietary Ryra CLI
+- [kdylan1010-alt/homebrew-venture-studio](kdylan1010-alt--homebrew-venture-studio/README.md) — Native macOS apps built end-to-end by an autonomous agent pipeline. brew tap kdylan1010-alt/venture-studio
+- [tkadauke/syrus](tkadauke--syrus/README.md) — Open-source, self-hosted orchestrator that lets teams run fleets of AI coding agents. File an issue, agents build in parallel, humans review, and approved work lands through a deterministic queue — no merge conflicts, no stepping on each other's toes.
+- [tobby-fetch/homebrew-tap](tobby-fetch--homebrew-tap/README.md) — No description supplied.
+- [ardifx01/spree](ardifx01--spree/README.md) — No description supplied.
+- [asciisoft/asciisoft-redmine-avatar](asciisoft--asciisoft-redmine-avatar/README.md) — Redmine plug-in
+- [rselbach/homebrew-tap](rselbach--homebrew-tap/README.md) — No description supplied.
+- [roniburd/homebrew-macexplorer](roniburd--homebrew-macexplorer/README.md) — Homebrew tap for MacExplorer
+- [ardifx01/solidus](ardifx01--solidus/README.md) — No description supplied.
+- [pdxhackerspace/member-zone](pdxhackerspace--member-zone/README.md) — Member Zone for PDX Hackerspace
+- [dcadolph/homebrew-tap](dcadolph--homebrew-tap/README.md) — No description supplied.
+- [noreastergroup/idempotency_lock](noreastergroup--idempotency_lock/README.md) — Simple, database-backed idempotency locks for Rails with TTL support and flexible error handling.
+- [tryzealot/zealot](tryzealot--zealot/README.md) — Self-hosted Beta App Distribution for Android, iOS, macOS, Linux and Windows apps | 开源自部署移动应用、 macOS、Linux 和 Windows 应用分发平台，提供 iOS、Android SDK、fastlane 等丰富组件库
+- [Knowledge-Forge-AI/homebrew-tap](Knowledge-Forge-AI--homebrew-tap/README.md) — Homebrew Formulae for the Theme Forge Stellar Burst and Stellar Loom CLIs
+- [infinitefusion/scripts](infinitefusion--scripts/README.md) — No description supplied.
+- [jedmund/hensei-api](jedmund--hensei-api/README.md) — An API to help Granblue Fantasy players create and share teams and strategies.
+- [sventmueller/homebrew-tap](sventmueller--homebrew-tap/README.md) — Homebrew casks for Splat, the Markdown editor for macOS with a live, editable preview
+- [makifyegin/servas-api](makifyegin--servas-api/README.md) — No description supplied.
+- [airwsw/homebrew-repo](airwsw--homebrew-repo/README.md) — The Homebrew Taps
+- [turboBasic/homebrew-tap](turboBasic--homebrew-tap/README.md) — No description supplied.
+- [idevtim/homebrew-tap](idevtim--homebrew-tap/README.md) — Homebrew casks for idevtim's Mac apps — Isleta, ChillMac and LunoPeak.
+- [DYB-Development/event_engine](DYB-Development--event_engine/README.md) — No description supplied.
+- [thetillhoff/homebrew-tap](thetillhoff--homebrew-tap/README.md) — Homebrew tap for own tools.
+- [runa-fm/homebrew-tap](runa-fm--homebrew-tap/README.md) — Homebrew tap for installing runa by alexm-dev
+- [bkuberek/homebrew-tap](bkuberek--homebrew-tap/README.md) — Homebrew tap for bkuberek's tools: cstudy (coding-interview practice) and spmeta (Spotify now-playing metadata)
+- [SUMRco/homebrew-tap](SUMRco--homebrew-tap/README.md) — No description supplied.
+- [Drizteb/maybe-finance](Drizteb--maybe-finance/README.md) — Maybe-Finance: The OS for your personal finances. An open-source, self-hosted platform for Net-Worth-Analysis, investment tracking, and retirement planning.
+- [pooza/ginseng-youtube](pooza--ginseng-youtube/README.md) — No description supplied.
+- [pooza/ginseng-web](pooza--ginseng-web/README.md) — No description supplied.
+- [osakka/hibr-apps](osakka--hibr-apps/README.md) — Hibr Shell  Applications!
+- [therealtimex/homebrew-tap](therealtimex--homebrew-tap/README.md) — No description supplied.
+- [felangga/homebrew-chiko](felangga--homebrew-chiko/README.md) — No description supplied.
+- [kuroweb/price-monitoring](kuroweb--price-monitoring/README.md) — 個人開発・実験用リポジトリ
+- [ekinertac/homebrew-tap](ekinertac--homebrew-tap/README.md) — Homebrew tap for ekinertac's tools (mkdown, ...)
+- [manaty226/homebrew-tap](manaty226--homebrew-tap/README.md) — No description supplied.
+- [VulcanoBr/MegaAnalytics](VulcanoBr--MegaAnalytics/README.md) — Aplicação web em Ruby on Rails 8.1 que armazena o histórico oficial da Mega-Sena e oferece análises estatísticas e matemáticas sobre os resultados: frequência das dezenas, distribuições, combinações, repetições, relatórios por período e exportação de dados.
+- [pelagos-containers/homebrew-tap](pelagos-containers--homebrew-tap/README.md) — Homebrew tap for pelagos container runtime tools
+- [chatwoot/chatwoot](chatwoot--chatwoot/README.md) — Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬
+- [saurabharora90/saurabharora90.github.io](saurabharora90--saurabharora90.github.io/README.md) — https://saurabharora.dev/
+- [gjack/pico_phone-rails](gjack--pico_phone-rails/README.md) — Rails integration for pico_phone: ActiveRecord attribute type, validator, and normalizer for phone numbers
+- [CupOfGeo/homebrew-tap](CupOfGeo--homebrew-tap/README.md) — Homebrew tap for CupOfGeo tools
+- [ehud-am/homebrew-gitlocal](ehud-am--homebrew-gitlocal/README.md) — Homebrew tap for GitLocal (macOS native app)
+- [globalize/globalize](globalize--globalize/README.md) — Rails I18n de-facto standard library for ActiveRecord model/data translation.
+- [matheus3301/homebrew-tap](matheus3301--homebrew-tap/README.md) — Homebrew formulae for matheus3301 projects
+- [PersonalClaw/homebrew-tap](PersonalClaw--homebrew-tap/README.md) — Homebrew tap for PersonalClaw - brew install personalclaw/tap/personalclaw
+- [zgeoff/homebrew-tap](zgeoff--homebrew-tap/README.md) — Homebrew formulae for zgeoff projects
+- [kiskeyix/applications](kiskeyix--applications/README.md) — A generic set of tools and shared code
+- [dotsecenv/homebrew-tap](dotsecenv--homebrew-tap/README.md) — dotsecenv Homebrew cask
+- [Texarkanine/devblog](Texarkanine--devblog/README.md) — No description supplied.
+- [frameworktools/homebrew-tap](frameworktools--homebrew-tap/README.md) — Homebrew tap for Framework tools (fw)
+- [m4rcelotoledo/payment-account](m4rcelotoledo--payment-account/README.md) — Desafio Técnico
+- [ivankuznetsov/hive](ivankuznetsov--hive/README.md) — An open-source agent workflow engine & meta-harness: orchestrates Claude, Codex, and Pi to run multi-step work as a folder-as-agent pipeline. Its flagship coding workflow turns a rough idea into a merge-ready PR; ships content too, and runs the workflows you author.
+- [crmne/archspec](crmne--archspec/README.md) — Architecture checks for Ruby and Rails.
+- [ardifx01/postal](ardifx01--postal/README.md) — No description supplied.
+- [Umichang/blog](Umichang--blog/README.md) — うみちゃんのブログです。
+- [kawaz/homebrew-tap](kawaz--homebrew-tap/README.md) — Homebrew tap for kawaz's tools
+- [espaliahq/espalia](espaliahq--espalia/README.md) — Open-source platform for operationalising career growth frameworks
+- [Miragefl/homebrew-logview](Miragefl--homebrew-logview/README.md) — Homebrew tap for logview
+- [psyysp/homebrew-dotdipper](psyysp--homebrew-dotdipper/README.md) — homebrew install compatibility (taps)
+- [aheathwilliams/paper_trail_diff](aheathwilliams--paper_trail_diff/README.md) — Structured endpoint and activity diffs for PaperTrail
+- [takushio2525/homebrew-tako](takushio2525--homebrew-tako/README.md) — Homebrew Cask tap for tako - AI-driven terminal
+- [arhunsaday/homebrew-tap](arhunsaday--homebrew-tap/README.md) — Homebrew casks for some of my projects
+- [likehopper/redmine_mirror](likehopper--redmine_mirror/README.md) — Redmine Mirror: one-way project synchronization between Redmine instances through their REST APIs
+- [nuanu-ai/homebrew-tap](nuanu-ai--homebrew-tap/README.md) — Nuanu AI Homebrew formulas
+- [applecider-it/rails-app](applecider-it--rails-app/README.md) — RailsのハイブリッドMPA
+- [Adimpression/homebrew-tap](Adimpression--homebrew-tap/README.md) — No description supplied.
+- [Decycle/homebrew-tap](Decycle--homebrew-tap/README.md) — Homebrew tap for Glass
+- [schedulin-app/schedulin-rb](schedulin-app--schedulin-rb/README.md) — No description supplied.
+- [stefudemi/SDTactical](stefudemi--SDTactical/README.md) — No description supplied.
+- [lobsters/lobsters](lobsters--lobsters/README.md) — Computing-focused community centered around link aggregation and discussion
+- [nagucath-sudo/homebrew-tap](nagucath-sudo--homebrew-tap/README.md) — Private Homebrew tap
+- [mertkayacs/homebrew-reevesagents](mertkayacs--homebrew-reevesagents/README.md) — Homebrew tap for installing and updating reevesagents.
+- [SteveBenner/polispec](SteveBenner--polispec/README.md) — Spec-based policy guardrails for AI agents working on software that serves real users
+- [meaganewaller/marketplace](meaganewaller--marketplace/README.md) — plugins for agentic workflows
+- [paularlott/homebrew-tap](paularlott--homebrew-tap/README.md) — Homebrew formula
+- [turfbuild/homebrew-tap](turfbuild--homebrew-tap/README.md) — Homebrew tap for Turf (brew install turfbuild/tap/turf).
+- [Guilherme-Matiass/Projeto-01---DevOps-com-Vagrant-e-Ansible](Guilherme-Matiass--Projeto-01---DevOps-com-Vagrant-e-Ansible/README.md) — projetos do IFPB
+- [redmine/redmine](redmine--redmine/README.md) — Mirror of redmine code source - Official Subversion repository is at https://svn.redmine.org/redmine - contact: @vividtone or maeda (at) farend (dot) jp
+- [Javiervinus/homebrew-tap](Javiervinus--homebrew-tap/README.md) — No description supplied.
+- [ruby/lrama](ruby--lrama/README.md) — Pure Ruby LALR parser generator
+- [asciisoft/asciisoft-redmine-plugin](asciisoft--asciisoft-redmine-plugin/README.md) — for asciisoft
+- [simple-edit-app/homebrew-tap](simple-edit-app--homebrew-tap/README.md) — Homebrew cask for SimpleEdit
+- [endeavordata/homebrew-tap](endeavordata--homebrew-tap/README.md) — Convoy CLI distribution — auto-updated by GoReleaser on release
+- [crspytopgn/homebrew-tap](crspytopgn--homebrew-tap/README.md) — No description supplied.
+- [nealhardesty/homebrew-ptyro](nealhardesty--homebrew-ptyro/README.md) — Homebrew tap for ptyro
+- [mihsanjunaidi04-space/sistem-penjualan-umkm](mihsanjunaidi04-space--sistem-penjualan-umkm/README.md) — No description supplied.
+- [khustochka/quails](khustochka--quails/README.md) — All-in-one birding journal, photo gallery, and blogging application
+- [crmne/mxc](crmne--mxc/README.md) — Run untrusted commands in an OS sandbox, from Ruby. An unofficial Ruby binding to Microsoft's MXC.
+- [Xquik-dev/x-twitter-scraper-ruby](Xquik-dev--x-twitter-scraper-ruby/README.md) — Twitter scraper & Twitter API Ruby gem. Search tweets, export followers & manage webhooks. Not affiliated with X Corp.
+- [crmne/kamal-backup](crmne--kamal-backup/README.md) — Add scheduled Rails backups to Kamal
+- [bethropolis/homebrew-tap](bethropolis--homebrew-tap/README.md) — my homebrew formulas and casks
+- [copy0401/cin_font_filter](copy0401--cin_font_filter/README.md) — 針對 目標字體 過濾 cin表格 裡的 豆腐字
+- [VulcanoBr/MegaStats](VulcanoBr--MegaStats/README.md) — O **MegaStats** é uma aplicação web (em Ruby on Rails 8.1) desenvolvida para importar, armazenar, validar, organizar e analisar estatisticamente o histórico de resultados da Mega-Sena, utilizando dados oficiais disponibilizados pela Caixa Econômica Federal.
+- [crmne/native-packages](crmne--native-packages/README.md) — Turn your built app into Linux packages, macOS disk images, and Windows installers. Publish releases and update distribution recipes from one YAML file.
+- [liao666brant/homebrew-tap](liao666brant--homebrew-tap/README.md) — No description supplied.
+- [palo-kunovsky-flash/homebrew-flashex](palo-kunovsky-flash--homebrew-flashex/README.md) — Homebrew tap for Flashex
+- [jimmycd/Sketchup_Kuechenplaner2](jimmycd--Sketchup_Kuechenplaner2/README.md) — No description supplied.
+- [nutsfall/blog.qli.jp](nutsfall--blog.qli.jp/README.md) — No description supplied.
+- [boldsoftware/homebrew-tap](boldsoftware--homebrew-tap/README.md) — No description supplied.
+- [Mrlightek/lightekmcg-site](Mrlightek--lightekmcg-site/README.md) — No description supplied.
+- [evergentic/docuseal](evergentic--docuseal/README.md) — Evergentic eSign: modified DocuSeal (AGPL-3.0). Source for esign.evergentic.ai
+- [jeremycole/avruby](jeremycole--avruby/README.md) — An AVR emulator, crazily written in Ruby.
+- [jfiander/bps](jfiander--bps/README.md) — The 2018 Birmingham Power Squadron website.
+- [Systemorph/homebrew-memex](Systemorph--homebrew-memex/README.md) — Homebrew tap for MeshWeaver: memex-local (the local memex stack on Colima k3s) — rendered by Systemorph/MeshWeaver CI
+- [StandardNerd/heuristicsyndicate](StandardNerd--heuristicsyndicate/README.md) — No description supplied.
+- [altlinux/specs](altlinux--specs/README.md) — Daily update of Sisyphus specs
+- [yo61/homebrew-tap](yo61--homebrew-tap/README.md) — Homebrew tap for yo61 tools
+- [Geoege-xll/homebrew-tap](Geoege-xll--homebrew-tap/README.md) — Homebrew formulae for Agent Workflow
+- [corvinjs/paris2026](corvinjs--paris2026/README.md) — Erlebnisse im Austausch nach Paris 2026
+- [andyw8/rubocop-view_component](andyw8--rubocop-view_component/README.md) — A RuboCop extension that encourages ViewComponent best practices.
+- [c0desurfer/homebrew-tap](c0desurfer--homebrew-tap/README.md) — No description supplied.
+- [0-don/homebrew-clippy](0-don--homebrew-clippy/README.md) — Homebrew tap for Clippy clipboard manager
+- [dfbustosus/homebrew-tap](dfbustosus--homebrew-tap/README.md) — Homebrew tap for llmrace
+- [aida0710/homebrew-tap](aida0710--homebrew-tap/README.md) — Homebrew formulae and casks for aida0710's projects
+- [yaccob/homebrew-tap](yaccob--homebrew-tap/README.md) — Homebrew tap for yaccob tools
+- [kagan-sh/homebrew-tap](kagan-sh--homebrew-tap/README.md) — Homebrew tap for kagan
+- [VitaliiLazebnyi/activerecord-bitwise](VitaliiLazebnyi--activerecord-bitwise/README.md) — No description supplied.
+- [pooza/chubo-core](pooza--chubo-core/README.md) — chubo shared core library and cookbooks
+- [gAmUssA/speaking-shownotes](gAmUssA--speaking-shownotes/README.md) — No description supplied.
+- [kettle-dev/kettle-fwd](kettle-dev--kettle-fwd/README.md) — A gem dependency forwarder.
+- [nimbusxr/homebrew-tap](nimbusxr--homebrew-tap/README.md) — No description supplied.
+- [SrHaruno/Pokemon-God](SrHaruno--Pokemon-God/README.md) — Pokémon God Repository, Used to share files more easily than previously.
+- [doze-dev/homebrew-tap](doze-dev--homebrew-tap/README.md) — Homebrew tap for doze — brew install doze-dev/tap/doze
+- [xixu-me/homebrew-tap](xixu-me--homebrew-tap/README.md) — Homebrew tap maintained by me
+- [nsheaps/homebrew-devsetup](nsheaps--homebrew-devsetup/README.md) — A template for your own homebrew tap. Fork this repo (or copy it) and add your own formula to set up new devices how you want.
+- [osdlc/homebrew-tap](osdlc--homebrew-tap/README.md) — Homebrew formulae for osdlc command-line tools
+- [tiri-build/homebrew-tap](tiri-build--homebrew-tap/README.md) — Homebrew tap for Tiri: brew install --cask tiri-build/tap/tiri
+- [akash-network/homebrew-tap](akash-network--homebrew-tap/README.md) — No description supplied.
+- [continuous-labs-ai/homebrew-tap](continuous-labs-ai--homebrew-tap/README.md) — Homebrew formula for the Continuous CLI
+- [mtremauville/nextanime](mtremauville--nextanime/README.md) — Recommandation d'anime par swipe (Rails 8, Hotwire)
+- [sailfishos-mirror/ruby](sailfishos-mirror--ruby/README.md) — https://github.com/ruby/ruby.git
+- [panguard-ai/homebrew-tap](panguard-ai--homebrew-tap/README.md) — Homebrew tap for PanGuard AI - Security for AI Agents
+- [flockcap/homebrew-tap](flockcap--homebrew-tap/README.md) — Homebrew formulae by Flock
+- [jamdesk/homebrew-tap](jamdesk--homebrew-tap/README.md) — Homebrew formulae for Jamdesk CLI
+- [mjacobus/khtools](mjacobus--khtools/README.md) — Small toolset for Kingdom Halls
+- [dexterm-xyz/homebrew-dexterm](dexterm-xyz--homebrew-dexterm/README.md) — Homebrew tap for dexterm
+- [v2macapp/homebrew-tap](v2macapp--homebrew-tap/README.md) — Homebrew tap for V2Mac, the native Xray and V2Ray client for Mac
+- [Mitcheljager/workshop.codes](Mitcheljager--workshop.codes/README.md) — Repository for workshop.codes
+- [Kingpin-Apps/homebrew-tap](Kingpin-Apps--homebrew-tap/README.md) — No description supplied.
+- [yegor256/donce](yegor256--donce/README.md) — Docker Once: builds a temporary Docker image, runs a temporary Docker container, lets your tests interact with it, terminates and cleans up
+- [zot24/homebrew-tap](zot24--homebrew-tap/README.md) — Homebrew tap for zot24's tools
+- [cogenityhq/homebrew-tap](cogenityhq--homebrew-tap/README.md) — Homebrew tap for Cogenity, the multi-account manager for Claude Code and Codex
+- [RomanTelemukha/Ruby](RomanTelemukha--Ruby/README.md) — No description supplied.
+- [huwd/huwdiprose.co.uk](huwd--huwdiprose.co.uk/README.md) — My Home Page
+- [DigitalIQ/homebrew-tap](DigitalIQ--homebrew-tap/README.md) — Homebrew tap for apps by DigitalIQ
+- [code0-tech/sagittarius](code0-tech--sagittarius/README.md) — The orchestrating backend for the CodeZero application
+- [hyperstructure/homebrew-tap](hyperstructure--homebrew-tap/README.md) — Homebrew tap of fctl CLI.
+- [hubbound/homebrew-hubbound](hubbound--homebrew-hubbound/README.md) — No description supplied.
+- [Bruno-Alumn/homebrew-thockbox](Bruno-Alumn--homebrew-thockbox/README.md) — Homebrew tap for ThockBox, mechanical keyboard sounds for your Mac
+- [fredericrous/homebrew-tap](fredericrous--homebrew-tap/README.md) — Homebrew formulae for githooks
+- [Keepstateai/homebrew-tap](Keepstateai--homebrew-tap/README.md) — Homebrew tap for the KeepState CLI (brew install esrygrtc/tap/ks)
+- [reaktif-io/homebrew-tap](reaktif-io--homebrew-tap/README.md) — Homebrew tap for Reaktif apps
+- [LizardByte/homebrew-homebrew](LizardByte--homebrew-homebrew/README.md) — The Official Homebrew Tap of LizardByte.
+- [joelee/homebrew-oss](joelee--homebrew-oss/README.md) — Homebrew tap repo for my projects
+- [dthirdfatpig/Discourse-Multiple-Video-Stream](dthirdfatpig--Discourse-Multiple-Video-Stream/README.md) — Multi-provider video streaming plugin for Discourse integrating Cloudflare Stream, Bunny.net, and Hovod.
+- [narbs/homebrew-funcspec](narbs--homebrew-funcspec/README.md) — Homebrew tap for the funcspec CLI
+- [colonyops/homebrew-tap](colonyops--homebrew-tap/README.md) — No description supplied.
+- [adrianmross/homebrew-tap](adrianmross--homebrew-tap/README.md) — Homebrew formulae for adrianmross CLI tools
+- [aboutdomtime/homebrew-cliproxyapi](aboutdomtime--homebrew-cliproxyapi/README.md) — Homebrew tap for CLIProxyAPI
+- [rbcodelabs/homebrew-geode](rbcodelabs--homebrew-geode/README.md) — No description supplied.
+- [lkurcak/homebrew-tap](lkurcak--homebrew-tap/README.md) — No description supplied.
+- [orbcorp/orb-ruby](orbcorp--orb-ruby/README.md) — Ruby client library for the Orb REST API.
+- [willhs/neutraliser](willhs--neutraliser/README.md) — Ruby CLI tool for video audio volume normalization using EBU R128 standard
+- [crmne/jekyll-vitepress-theme](crmne--jekyll-vitepress-theme/README.md) — Ruby deserves beautiful documentation. Jekyll VitePress Theme brings VitePress-level polish to Jekyll.
+- [saltstack-formulas/stunnel-formula](saltstack-formulas--stunnel-formula/README.md) — Saltstack formula for stunnel
+- [unified-to/unified-ruby-sdk](unified-to--unified-ruby-sdk/README.md) — No description supplied.
+- [albertocavalcante/homebrew-tap](albertocavalcante--homebrew-tap/README.md) — Homebrew tap for tools and apps by @albertocavalcante
+- [justsrc/homebrew-tap](justsrc--homebrew-tap/README.md) — 🍺 A custom Homebrew tap for personal, third-party, and unnotarized macOS applications.
+- [axiomata-labs/homebrew-tap](axiomata-labs--homebrew-tap/README.md) — Homebrew formulae and casks for Axiomata Labs' apps
+- [akshitkrnagpal/homebrew-tap](akshitkrnagpal--homebrew-tap/README.md) — No description supplied.
+- [numeron-lab/homebrew-zurdo](numeron-lab--homebrew-zurdo/README.md) — No description supplied.
+- [libtmux/libtmux-ruby](libtmux--libtmux-ruby/README.md) — Ruby library for tmux (alpha)
+- [tedorigawa001/homebrew-tap](tedorigawa001--homebrew-tap/README.md) — Homebrew tap for bdo (Bushido)
+- [LeopardDennis/ai-passport-pdkpass](LeopardDennis--ai-passport-pdkpass/README.md) — Offline-first F1 companion for FoloToy AI Passport — race calendar, driver standings, circuit details, session podiums, and Beijing-time auto switching.
