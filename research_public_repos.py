@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Discover and document public GitHub repositories not owned by this account.
+"""Continuously discover and document public GitHub repositories not owned by this account.
 
-Each run targets at least 1,000 previously unseen public repositories. It stores
-one research README per repository and a daily index. Summaries are extracted
-from repository metadata and the upstream README; no source is copied.
+There is no daily repository target or fixed discovery stop. The scanner partitions
+GitHub's creation-date search space so the Search API's 1,000-result-per-query
+ceiling does not hide older/newer repositories. Seen repository IDs are persisted
+and skipped on later runs.
 """
 from __future__ import annotations
 
+import base64
 import datetime as dt
 import json
 import os
 import random
 import re
-import sys
 import time
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote
 
 import requests
 
@@ -24,8 +24,6 @@ API = "https://api.github.com"
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "research" / "public-repositories"
 STATE = ROOT / ".githistory" / "research-state.json"
-TARGET = max(1000, int(os.getenv("DAILY_TARGET", "1000")))
-LANGUAGES = ["Python", "JavaScript", "TypeScript", "Go", "Rust", "Java", "PHP", "C++", "Ruby", "C"]
 SKIP_OWNERS = {os.getenv("GITHUB_USERNAME", "").casefold()}
 
 
@@ -42,7 +40,6 @@ class GitHub:
         self.last_core_request = 0.0
 
     def get(self, path: str, params: dict[str, Any] | None = None) -> Any:
-        # GitHub authenticated search is limited to 30 requests per minute.
         is_search = path.startswith("/search/")
         interval = 2.1 if is_search else 0.12
         attr = "last_search_request" if is_search else "last_core_request"
@@ -53,41 +50,45 @@ class GitHub:
         delay = 3
         while True:
             try:
-                r = self.s.get(API + path, params=params, timeout=(10, 45))
-            except requests.RequestException as e:
-                print(f"Network issue: {e}; retry in {delay}s", flush=True)
+                response = self.s.get(API + path, params=params, timeout=(10, 45))
+            except requests.RequestException as exc:
+                print(f"Network issue: {exc}; retry in {delay}s", flush=True)
                 time.sleep(delay + random.random())
                 delay = min(delay * 2, 180)
                 continue
-            if r.status_code in (403, 429):
-                remaining = r.headers.get("X-RateLimit-Remaining")
-                reset = int(r.headers.get("X-RateLimit-Reset", "0") or 0)
-                if remaining == "0" or r.status_code == 429 or "rate limit" in r.text.lower():
+            if response.status_code in (403, 429):
+                remaining = response.headers.get("X-RateLimit-Remaining")
+                reset = int(response.headers.get("X-RateLimit-Reset", "0") or 0)
+                if remaining == "0" or response.status_code == 429 or "rate limit" in response.text.lower():
                     wait = max(60, reset - int(time.time()) + 5) if reset else 60
-                    wait = max(wait, int(r.headers.get("Retry-After", "0") or 0))
+                    wait = max(wait, int(response.headers.get("Retry-After", "0") or 0))
                     print(f"Rate limit: pausing {wait}s", flush=True)
                     time.sleep(wait)
                     continue
-            if r.status_code in (500, 502, 503, 504):
+            if response.status_code in (500, 502, 503, 504):
+                print(f"GitHub {response.status_code}; retry in {delay}s", flush=True)
                 time.sleep(delay)
                 delay = min(delay * 2, 180)
                 continue
-            r.raise_for_status()
-            return r.json()
+            response.raise_for_status()
+            return response.json()
 
 
 def load_state() -> dict[str, Any]:
     try:
-        return json.loads(STATE.read_text(encoding="utf-8"))
+        state = json.loads(STATE.read_text(encoding="utf-8"))
+        if not isinstance(state.get("seen"), list):
+            state["seen"] = []
+        return state
     except (OSError, json.JSONDecodeError):
         return {"seen": [], "day": "", "daily_count": 0}
 
 
 def save_state(state: dict[str, Any]) -> None:
     STATE.parent.mkdir(parents=True, exist_ok=True)
-    tmp = STATE.with_suffix(".tmp")
-    tmp.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
-    tmp.replace(STATE)
+    temporary = STATE.with_suffix(".tmp")
+    temporary.write_text(json.dumps(state, separators=(",", ":")) + "\n", encoding="utf-8")
+    temporary.replace(STATE)
 
 
 def clean(text: str) -> str:
@@ -103,9 +104,9 @@ def extract_summary(readme: str) -> tuple[str, str]:
     lines = readme.splitlines()
     title = ""
     for line in lines[:20]:
-        m = re.match(r"^\s*#\s+(.+)", line)
-        if m:
-            title = clean(m.group(1))
+        match = re.match(r"^\s*#\s+(.+)", line)
+        if match:
+            title = clean(match.group(1))
             break
     paragraphs = []
     in_fence = False
@@ -141,6 +142,7 @@ def make_doc(repo: dict[str, Any], upstream_readme: str) -> str:
 - **Stars:** {repo.get('stargazers_count', 0):,}
 - **Forks:** {repo.get('forks_count', 0):,}
 - **Open issues:** {repo.get('open_issues_count', 0):,}
+- **Created:** {repo.get('created_at') or 'Not reported'}
 - **Last pushed:** {repo.get('pushed_at') or 'Not reported'}
 - **Topics:** {', '.join(topics) if topics else 'No topics listed'}
 - **License:** {(repo.get('license') or {}).get('spdx_id', 'Not specified')}
@@ -161,81 +163,88 @@ This entry is based on publicly available repository metadata and the upstream R
 """
 
 
+def date_ranges(start: dt.date, end: dt.date):
+    """Yield inclusive date ranges, splitting crowded ranges until each is searchable."""
+    pending = [(start, end)]
+    while pending:
+        first, last = pending.pop()
+        query = f"is:public archived:false fork:false created:{first.isoformat()}..{last.isoformat()}"
+        first_page = api.get("/search/repositories", {
+            "q": query, "sort": "created", "order": "asc", "per_page": 100, "page": 1,
+        })
+        total = int(first_page.get("total_count", 0))
+        if total > 1000 and first < last:
+            midpoint = first + (last - first) // 2
+            pending.append((midpoint + dt.timedelta(days=1), last))
+            pending.append((first, midpoint))
+            print(f"Partitioning {first}..{last} ({total:,} matches)", flush=True)
+            continue
+        if total > 1000:
+            print(f"Warning: {first} still has {total:,} matches; GitHub's per-query cap may omit some same-day results.", flush=True)
+        yield query, first_page, min(10, (total + 99) // 100)
+
+
 def main() -> None:
+    global api
     token = os.getenv("GITHUB_TOKEN") or os.getenv("GH_READ_TOKEN")
     if not token:
         raise SystemExit("Set GH_READ_TOKEN as a secret.")
     username = os.getenv("GITHUB_USERNAME", "").casefold()
+    if not username:
+        raise SystemExit("GITHUB_USERNAME must identify the account whose repositories are excluded.")
     api = GitHub(token)
     state = load_state()
-    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    today = dt.datetime.now(dt.timezone.utc).date()
+    if state.get("day") != today.isoformat():
+        state["day"], state["daily_count"] = today.isoformat(), 0
     seen = set(state.get("seen", []))
-    if state.get("day") != today:
-        state["day"], state["daily_count"] = today, 0
-
-    # Rotate language partitions daily to broaden discovery beyond one search page.
-    offset = (dt.date.fromisoformat(today).toordinal() // 1) % len(LANGUAGES)
-    languages = LANGUAGES[offset:] + LANGUAGES[:offset]
-    discovered: dict[int, dict[str, Any]] = {}
-    for language in languages:
-        if state["daily_count"] + len(discovered) >= TARGET:
-            break
-        query = f"is:public archived:false fork:false language:\"{language}\""
-        for page in range(1, 11):
-            if state["daily_count"] + len(discovered) >= TARGET:
-                break
-            payload = api.get("/search/repositories", {
-                "q": query, "sort": "updated", "order": "desc",
-                "per_page": 100, "page": page,
+    batch_dir = OUT / f"{today:%Y}" / f"{today:%m}" / f"{today:%d}"
+    batch_dir.mkdir(parents=True, exist_ok=True)
+    index_path = batch_dir / "README.md"
+    index_lines = [
+        f"# Public GitHub repository research — {today.isoformat()}", "",
+        "**Discovery mode:** Uncapped by a daily target. Public, non-fork, non-archived repositories owned by other accounts.", "",
+        "Entries use public repository metadata and upstream README text; they are not code audits or endorsements.", "",
+    ]
+    generated = 0
+    examined = 0
+    for query, first_page, pages in date_ranges(dt.date(2008, 1, 1), today):
+        for page in range(1, pages + 1):
+            payload = first_page if page == 1 else api.get("/search/repositories", {
+                "q": query, "sort": "created", "order": "asc", "per_page": 100, "page": page,
             })
             for repo in payload.get("items", []):
-                owner = (repo.get("owner") or {}).get("login", "").casefold()
-                rid = repo.get("id")
-                if not rid or owner == username or owner in SKIP_OWNERS or rid in seen or rid in discovered:
+                examined += 1
+                owner = (repo.get("owner") or {}).get("login", "")
+                repo_id = repo.get("id")
+                if not repo_id or owner.casefold() == username or owner.casefold() in SKIP_OWNERS or repo_id in seen:
                     continue
-                discovered[rid] = repo
-                if state["daily_count"] + len(discovered) >= TARGET:
-                    break
-            if len(payload.get("items", [])) < 100:
-                break
-
-    batch_day = dt.date.fromisoformat(today)
-    batch_dir = OUT / f"{batch_day:%Y}" / f"{batch_day:%m}" / f"{batch_day:%d}"
-    batch_dir.mkdir(parents=True, exist_ok=True)
-    generated = 0
-    for rid, repo in discovered.items():
-        full_name = repo["full_name"]
-        owner, name = full_name.split("/", 1)
-        try:
-            readme_data = api.get(f"/repos/{full_name}/readme")
-            import base64
-            encoded = readme_data.get("content", "")
-            upstream = base64.b64decode(encoded).decode("utf-8", errors="replace") if encoded else ""
-        except requests.HTTPError:
-            upstream = ""
-        slug = re.sub(r"[^A-Za-z0-9_.-]+", "-", f"{owner}--{name}")[:180]
-        path = batch_dir / slug / "README.md"
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(make_doc(repo, upstream), encoding="utf-8")
-        seen.add(rid)
-        generated += 1
-        if generated % 50 == 0:
-            print(f"Documented {generated}/{len(discovered)} repositories", flush=True)
-
+                full_name = repo["full_name"]
+                try:
+                    readme_data = api.get(f"/repos/{full_name}/readme")
+                    encoded = readme_data.get("content", "")
+                    upstream = base64.b64decode(encoded).decode("utf-8", errors="replace") if encoded else ""
+                except requests.HTTPError as exc:
+                    print(f"README unavailable for {full_name}: {exc}", flush=True)
+                    upstream = ""
+                slug = re.sub(r"[^A-Za-z0-9_.-]+", "-", f"{owner}--{repo['name']}")[:180]
+                repo_dir = batch_dir / slug
+                repo_dir.mkdir(parents=True, exist_ok=True)
+                (repo_dir / "README.md").write_text(make_doc(repo, upstream), encoding="utf-8")
+                seen.add(repo_id)
+                generated += 1
+                index_lines.append(f"- [{full_name}]({slug}/README.md) — {repo.get('description') or 'No description supplied.'}")
+                if generated % 50 == 0:
+                    state["seen"] = sorted(seen)
+                    state["daily_count"] = int(state.get("daily_count", 0)) + 50
+                    save_state(state)
+                    index_path.write_text("\n".join(index_lines) + "\n", encoding="utf-8")
+                    print(f"Documented {generated:,} new repositories; examined {examined:,} search results.", flush=True)
     state["seen"] = sorted(seen)
-    state["daily_count"] = state.get("daily_count", 0) + generated
+    state["daily_count"] = int(state.get("daily_count", 0)) + (generated % 50)
     save_state(state)
-    index = [
-        f"# Public GitHub repository research — {today}", "",
-        f"**New repositories documented today:** {generated}", "",
-        "These are public repositories owned by other GitHub users. Each entry is based on upstream metadata and README text; it is not an endorsement or code audit.", "",
-    ]
-    for repo in discovered.values():
-        owner, name = repo["full_name"].split("/", 1)
-        slug = re.sub(r"[^A-Za-z0-9_.-]+", "-", f"{owner}--{name}")[:180]
-        index.append(f"- [{repo['full_name']}]({slug}/README.md) — {repo.get('description') or 'No description supplied.'}")
-    (batch_dir / "README.md").write_text("\n".join(index) + "\n", encoding="utf-8")
-    print(f"Complete: generated {generated} repository research README files for {today}.", flush=True)
+    index_path.write_text("\n".join(index_lines) + "\n", encoding="utf-8")
+    print(f"Complete: documented {generated:,} new repositories; examined {examined:,} public repository search results.", flush=True)
 
 
 if __name__ == "__main__":
