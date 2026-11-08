@@ -79,3 +79,17 @@ requirements.txt
 ## License
 
 MIT
+
+
+## Public repository research
+
+GitHistory also discovers **public repositories owned by other GitHub users** and creates an independent research note for each repository using its public metadata and upstream README.
+
+- Scanner: `research_public_repos.py`
+- Output: `research/public-repositories/YYYY/MM/DD/<owner>--<repo>/README.md`
+- Daily target: up to **1,000 new repositories**
+- Daily index: `research/public-repositories/YYYY/MM/DD/README.md`
+- Duplicate repositories are tracked in `.githistory/research-state.json`.
+- Private repositories and repositories owned by this account are excluded.
+
+The scanner extracts and condenses upstream README prose; it does not clone projects, copy source code, or claim to perform a security audit. Run it from **Actions → Public repository research → Run workflow**. It is also scheduled daily.
