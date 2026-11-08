@@ -210,7 +210,7 @@ def write_archive(
     written = 0
     day = account_created
     while day <= last_day:
-        path = HISTORY_DIR / f"{day:%Y}" / f"{day:%m}" / f"{day:%Y-%m-%d}.md"
+        path = HISTORY_DIR / f"{day:%Y}" / f"{day:%m}" / f"{day:%d}" / "README.md"
         path.parent.mkdir(parents=True, exist_ok=True)
         content = render_day(day, by_day.get(day, []), account_login)
         if not path.exists() or path.read_text(encoding="utf-8") != content:
@@ -294,7 +294,7 @@ def merge_incremental_days(
 
     changed = 0
     for day, additions in grouped.items():
-        path = HISTORY_DIR / f"{day:%Y}" / f"{day:%m}" / f"{day:%Y-%m-%d}.md"
+        path = HISTORY_DIR / f"{day:%Y}" / f"{day:%m}" / f"{day:%d}" / "README.md"
         existing = path.read_text(encoding="utf-8") if path.exists() else ""
         known = set()
         for line in existing.splitlines():
