@@ -8,7 +8,7 @@ on:
         required: false
         default: "1000"
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "51 5 * * *"
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
       - name: Commit research library
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+Shushirolsh-Dev@users.noreply.github.com"
           git add research .githistory/research-state.json
           if git diff --cached --quiet; then
             echo "No new public repositories discovered."
