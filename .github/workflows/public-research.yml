@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       daily_target:
-        description: "Number of new public repositories to document (max 1000)"
+        description: "Minimum number of new public repositories to document (at least 1000)"
         required: false
         default: "1000"
   schedule:
