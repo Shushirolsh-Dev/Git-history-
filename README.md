@@ -8,7 +8,7 @@ GitHistory discovers repositories accessible to your authenticated GitHub accoun
 
 - Reads your GitHub account creation date and accessible repositories.
 - Scans historical commits GitHub resolves to your username.
-- Creates `history/YYYY/MM/YYYY-MM-DD.md` daily records.
+- Creates `history/YYYY/MM/DD/README.md` daily records.
 - Includes commit message, repository, authored timestamp, short SHA, and commit link.
 - Saves scan state so later runs are incremental.
 - Handles pagination, transient failures, primary rate limits, and secondary rate limits with backoff.
@@ -69,7 +69,7 @@ The loop enforces a minimum 15-minute interval. When GitHub signals a rate limit
 history/
   YYYY/
     MM/
-      YYYY-MM-DD.md
+        README.md
 .githistory/
   state.json
 githistory.py
