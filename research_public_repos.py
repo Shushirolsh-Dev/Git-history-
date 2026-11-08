@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Discover and document public GitHub repositories not owned by this account.
 
-Each run targets up to 1,000 previously unseen public repositories. It stores
+Each run targets at least 1,000 previously unseen public repositories. It stores
 one research README per repository and a daily index. Summaries are extracted
 from repository metadata and the upstream README; no source is copied.
 """
@@ -24,7 +24,7 @@ API = "https://api.github.com"
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "research" / "public-repositories"
 STATE = ROOT / ".githistory" / "research-state.json"
-TARGET = max(1, min(int(os.getenv("DAILY_TARGET", "1000")), 1000))
+TARGET = max(1000, int(os.getenv("DAILY_TARGET", "1000")))
 LANGUAGES = ["Python", "JavaScript", "TypeScript", "Go", "Rust", "Java", "PHP", "C++", "Ruby", "C"]
 SKIP_OWNERS = {os.getenv("GITHUB_USERNAME", "").casefold()}
 
@@ -38,8 +38,18 @@ class GitHub:
             "X-GitHub-Api-Version": "2022-11-28",
             "User-Agent": "GitHistory-public-repository-research",
         })
+        self.last_search_request = 0.0
+        self.last_core_request = 0.0
 
     def get(self, path: str, params: dict[str, Any] | None = None) -> Any:
+        # GitHub authenticated search is limited to 30 requests per minute.
+        is_search = path.startswith("/search/")
+        interval = 2.1 if is_search else 0.12
+        attr = "last_search_request" if is_search else "last_core_request"
+        elapsed = time.monotonic() - getattr(self, attr)
+        if elapsed < interval:
+            time.sleep(interval - elapsed)
+        setattr(self, attr, time.monotonic())
         delay = 3
         while True:
             try:
@@ -170,7 +180,7 @@ def main() -> None:
     for language in languages:
         if state["daily_count"] + len(discovered) >= TARGET:
             break
-        query = f"is:public archived:false fork:false stars:>0 language:\"{language}\""
+        query = f"is:public archived:false fork:false language:\"{language}\""
         for page in range(1, 11):
             if state["daily_count"] + len(discovered) >= TARGET:
                 break
